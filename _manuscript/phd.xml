@@ -138,8 +138,7 @@ work.</funding-statement>
     public policy. The field has existed for over 50 years and has been
     applied to many different policy areas and is a methodology that is
     applied within both government and academia.
-    (<xref alt="O’Donoghue, 2014" rid="ref-odonoghue_handbook_2014" ref-type="bibr">O’Donoghue,
-    2014</xref>)</p>
+    [odonoghue_handbook_2014]</p>
       </disp-quote>
       <p>The canonical microsimulation is the Tax Benefit Model, which
   models the effects of the fiscal system on individuals and
@@ -211,7 +210,11 @@ work.</funding-statement>
   means of achieving progressive reform.</p>
       <sec id="benefit-takeup">
         <title>Benefit Takeup</title>
-        <p>(Fry and Stark 198x, 1994; Buck and Stark 20xx, 20yy))</p>
+        <p>((<xref alt="FRY and STARK, 1987" rid="ref-fry_take-up_1987" ref-type="bibr">FRY
+    and STARK, 1987</xref>;
+    <xref alt="Fry and Stark, 1993" rid="ref-fry_take-up_1993-1" ref-type="bibr">Fry
+    and Stark, 1993</xref>); Buck and Stark
+    (<xref alt="2003" rid="ref-buck_simplicity_2003" ref-type="bibr">2003</xref>))</p>
         <p>The UK’s benefit system is largely means-tested. Entitlement to
     Universal Credit, Working Tax Credit and the like depend on family
     income, with benefits being withdrawn as income rise. Along with the
@@ -219,39 +222,51 @@ work.</funding-statement>
     that these benefits may not be claimed, largely because of stigma or
     because of the complexity of claiming them. Ours were the first
     studies to use microsimulation techniques to study non-take up
-    (e.g. Fry &amp; Stark 1987; 1992; 1993). A key result is that takeup
-    is higher for large entitlements, which provides support for the
-    ‘disutility’ model of take-up. Studies using our microsimulation
-    methods have since become a mini-industry (Moffat xx, (some
-    survey)).</p>
+    (<xref alt="FRY and STARK, 1987" rid="ref-fry_take-up_1987" ref-type="bibr">FRY
+    and STARK, 1987</xref>;
+    <xref alt="Fry and Stark, 1993" rid="ref-fry_take-up_1993-1" ref-type="bibr">Fry
+    and Stark, 1993</xref>). A key result is that takeup is higher for
+    large entitlements, which provides support for the ‘disutility’
+    model of take-up. Studies using our microsimulation methods have
+    since become a mini-industry (, [ko_take-up_2022;Brewer
+    (<xref alt="2003" rid="ref-brewer_estimating_2003" ref-type="bibr">2003</xref>)]).</p>
         <p>Highlighting complexity and stigma as likely important factors in
     limiting the effectiveness of means-tested benefits has clear
     relevance to my later work on less conditional welfare reforms, such
     as basic income, but my initial response was to examine more focused
-    policies such as Legal Aid Means-Testing. I used microsimulation to
-    answer the question: ‘what is the simplest set of rules that could
-    achieve some set of objectives - the numbers and types of families
-    eligible, overall expenditure and administrative costs and so on?’
-    The work had significant impact, directly contributing to reforms to
-    Legal Aid means tests, though the positive impact was largely
-    cancelled out by subsequent large cuts to the legal aid budget.
-    Subsequently, there was interest in the simplification question in
-    Government, including an ‘Office for Tax Simplification’. However,
-    this often combined simplification with sweeping distributional
-    changes that produced more complex implementation issues.</p>
+    policies such as Legal Aid Means-Testing. Along with Alexy Buck of
+    the Legal Services Commission Buck and Stark
+    (<xref alt="2003" rid="ref-buck_simplicity_2003" ref-type="bibr">2003</xref>),I
+    used microsimulation to answer the question: ‘what is the simplest
+    set of rules that could achieve some set of objectives - the numbers
+    and types of families eligible, overall expenditure and
+    administrative costs and so on?’ The work had significant impact,
+    directly contributing to reforms to Legal Aid means tests, though
+    the positive impact was largely cancelled out by subsequent large
+    cuts to the legal aid budget. Subsequently, there was interest in
+    the simplification question in Government, including an ‘Office for
+    Tax Simplification’. However, this often combined simplification
+    with sweeping distributional changes that produced more complex
+    implementation issues.</p>
       </sec>
       <sec id="budget-analysis">
         <title>Budget Analysis</title>
         <p>One of the key founding missions of IFS was to provide timely,
     detailed analysis of actual and proposed budget changes. My work
     with Paul Johnson, Andrew Dilnot, Evan Davis and others illustrate
-    the contribution of microsimulation to this (Johnson &amp; Stark
-    1991; Davis et al. 1992; Johnson, Webb &amp; Stark 1987 Dilnot, et
-    al. 1987). These, too, may seem commonplace now, although analysis
-    of budgets is mostly focussed on public finances in the aggregate.
-    However, at the time, rapid, detailed analysis of the distributional
-    and incentive effects of budgets was new and had a huge impact in
-    the wider discourse.</p>
+    the contribution of microsimulation to this
+    (<xref alt="DILNOT et al., 1987" rid="ref-dilnot-fs-1987" ref-type="bibr">DILNOT
+    <italic>et al.</italic>, 1987</xref>;
+    <xref alt="Dilnot, Stark and Johnson, 1991" rid="ref-dilnot_savings_1991" ref-type="bibr">Dilnot,
+    Stark and Johnson, 1991</xref>;
+    <xref alt="Dilnot et al., 1992" rid="ref-dilnot_alternative_1992" ref-type="bibr">Dilnot
+    <italic>et al.</italic>, 1992</xref>;
+    <xref alt="JOHNSON and STARK, 1993" rid="ref-johnson_assessing_1993" ref-type="bibr">JOHNSON
+    and STARK, 1993</xref>). These, too, may seem commonplace now,
+    although analysis of budgets is mostly focussed on public finances
+    in the aggregate. However, at the time, rapid, detailed analysis of
+    the distributional and incentive effects of budgets was new and had
+    a huge impact in the wider discourse.</p>
         <p>My more recent work in this area includes papers for the Office
     of the Scottish Charities Register (OSCR), which were concerned with
     granting charitable status to institutions, such as private schools
@@ -950,8 +965,7 @@ work.</funding-statement>
   Benefits in the Czech Republic’. IFS Working Paper Series W95/58.</p>
       <p>Davis, Evan, Dilnot, Andrew S., Giles, Flanders Christopher,
   Johnson, Paul, Ridge, Michael, Stark, Graham, Webb, Steven, and
-  Whitehouse Edward. 1992. Alternative proposals on tax and social
-  security. London: IFS.
+  Whitehouse Edward. 1992.
   https://ifs.org.uk/sites/default/files/output_url_files/comm29.pdf</p>
       <p>Dilnot, Andrew, and Graham Stark. 1986a. The Poverty Trap, Tax
   Cuts, and the Reform of Social Security. Fiscal Studies 7 (1): 1–10.
@@ -1128,6 +1142,23 @@ work.</funding-statement>
           <year iso-8601-date="1995">1995</year>
         </element-citation>
       </ref>
+      <ref id="ref-buck_means_2001">
+        <element-citation publication-type="report">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buck</surname>
+              <given-names>Alexy</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>Means Assessment: Options for Change</article-title>
+          <publisher-name>Legal Services Commission</publisher-name>
+          <year iso-8601-date="2001">2001</year>
+        </element-citation>
+      </ref>
       <ref id="ref-duncan_recursive_2000">
         <element-citation>
           <person-group person-group-type="author">
@@ -1171,6 +1202,52 @@ work.</funding-statement>
           <article-title>TAXBEN2: The New IFS tax and Benefit Model</article-title>
           <year iso-8601-date="1990-05">1990</year>
           <month>05</month>
+        </element-citation>
+      </ref>
+      <ref id="ref-buck_simplicity_2003">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buck</surname>
+              <given-names>Alexy</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>Simplicity versus Fairness in Means Testing: The Case of Civil Legal Aid</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="2003">2003</year>
+          <volume>24</volume>
+          <issue>4</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.2003.tb00090.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.2003.tb00090.x</pub-id>
+          <fpage>427</fpage>
+          <lpage>449</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-johnson_assessing_1993">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>JOHNSON</surname>
+              <given-names>PAUL</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing the Impact of Tax Changes</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1993">1993</year>
+          <volume>14</volume>
+          <issue>3</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1993.tb00490.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1993.tb00490.x</pub-id>
+          <fpage>131</fpage>
+          <lpage>140</lpage>
         </element-citation>
       </ref>
       <ref id="ref-johnson_effects_1991">
@@ -1265,6 +1342,29 @@ work.</funding-statement>
           <lpage>93</lpage>
         </element-citation>
       </ref>
+      <ref id="ref-fry_take-up_1987">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>FRY</surname>
+              <given-names>VANESSA</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+          </person-group>
+          <article-title>The Take-Up of Supplementary Benefit: Gaps in the ‘Safety Net’?</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1987">1987</year>
+          <volume>8</volume>
+          <issue>4</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1987.tb00302.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1987.tb00302.x</pub-id>
+          <fpage>1</fpage>
+          <lpage>14</lpage>
+        </element-citation>
+      </ref>
       <ref id="ref-dilnot_poverty_1986">
         <element-citation publication-type="article-journal">
           <person-group person-group-type="author">
@@ -1286,6 +1386,31 @@ work.</funding-statement>
           <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1986.tb00410.x</pub-id>
           <fpage>1</fpage>
           <lpage>10</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-fry_take-up_1993-1">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fry</surname>
+              <given-names>Vanessa</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <source>The take-up of means-tested benefits, 1984-90</source>
+          <year iso-8601-date="1993-01">1993</year>
+          <month>01</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2018-01-31">2018</year>
+            <month>01</month>
+            <day>31</day>
+          </date-in-citation>
+          <isbn>978-1-873357-20-0</isbn>
+          <uri>https://www.ifs.org.uk/publications/1954</uri>
+          <pub-id pub-id-type="doi">10.1920/re.ifs.1993.0041</pub-id>
         </element-citation>
       </ref>
       <ref id="ref-giles_taxbenU003A_1995">
@@ -1313,6 +1438,110 @@ work.</funding-statement>
           <pub-id pub-id-type="doi">10.1920/wp.ifs.1995.9519</pub-id>
         </element-citation>
       </ref>
+      <ref id="ref-woodruff_policyengine_2024">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woodruff</surname>
+              <given-names>Nikhil</given-names>
+            </name>
+            <name>
+              <surname>Ghenis</surname>
+              <given-names>Max</given-names>
+            </name>
+          </person-group>
+          <article-title>PolicyEngine UK</article-title>
+          <year iso-8601-date="2024">2024</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2024-05-29">2024</year>
+            <month>05</month>
+            <day>29</day>
+          </date-in-citation>
+          <uri>https://policyengine.org/uk/</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-brewer_estimating_2003">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brewer</surname>
+              <given-names>Mike</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimating Models of Benefit Take-up</article-title>
+          <publisher-name>HMRC</publisher-name>
+          <year iso-8601-date="2003">2003</year>
+          <uri>http://www.hmrc.gov.uk/research/ifs-takeup-theory.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-dilnot_alternative_1992">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dilnot</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>Steven</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>Evan</given-names>
+            </name>
+            <name>
+              <surname>Ridge</surname>
+              <given-names>Mick</given-names>
+            </name>
+            <name>
+              <surname>Flanders</surname>
+              <given-names>Stephanie</given-names>
+            </name>
+            <name>
+              <surname>Whitehouse</surname>
+              <given-names>Edward</given-names>
+            </name>
+          </person-group>
+          <article-title>Alternative proposals on tax and social security. London: IFS.</article-title>
+          <year iso-8601-date="1992">1992</year>
+          <uri>https://ifs.org.uk/sites/default/files/output_url_files/comm29.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-dilnot-fs-1987">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DILNOT</surname>
+              <given-names>ANDREW</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+            <name>
+              <surname>WALKER</surname>
+              <given-names>IAN</given-names>
+            </name>
+            <name>
+              <surname>WEBB</surname>
+              <given-names>STEVEN</given-names>
+            </name>
+          </person-group>
+          <article-title>The 1987 budget in perspective</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1987">1987</year>
+          <volume>8</volume>
+          <issue>2</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1987.tb00535.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1987.tb00535.x</pub-id>
+          <fpage>48</fpage>
+          <lpage>57</lpage>
+        </element-citation>
+      </ref>
       <ref id="ref-stark_public_2024">
         <element-citation publication-type="manuscript">
           <person-group person-group-type="author">
@@ -1338,45 +1567,54 @@ work.</funding-statement>
           <uri>https://virtual-worlds.scot/triplepc/triplepc-microsim-paper-draft.pdf</uri>
         </element-citation>
       </ref>
-      <ref id="ref-odonoghue_handbook_2014">
-        <element-citation publication-type="book">
-          <source>Handbook of microsimulation modelling</source>
-          <person-group person-group-type="editor">
+      <ref id="ref-johnson_effects_1991">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
             <name>
-              <surname>O’Donoghue</surname>
-              <given-names>Cathal</given-names>
+              <surname>JOHNSON</surname>
+              <given-names>PAUL</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
             </name>
           </person-group>
-          <year iso-8601-date="2014-06">2014</year>
-          <month>06</month>
-          <date-in-citation content-type="access-date">
-            <year iso-8601-date="2024-05-29">2024</year>
-            <month>05</month>
-            <day>29</day>
-          </date-in-citation>
-          <uri>https://www.microsimulation.ac.uk/publications/publication-522948/</uri>
+          <article-title>The Effects of a Minimum Wage on Family Incomes</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1991">1991</year>
+          <volume>12</volume>
+          <issue>3</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1991.tb00164.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1991.tb00164.x</pub-id>
+          <fpage>88</fpage>
+          <lpage>93</lpage>
         </element-citation>
       </ref>
-      <ref id="ref-woodruff_policyengine_2024">
+      <ref id="ref-dilnot_savings_1991">
         <element-citation>
           <person-group person-group-type="author">
             <name>
-              <surname>Woodruff</surname>
-              <given-names>Nikhil</given-names>
+              <surname>Dilnot</surname>
+              <given-names>Andrew</given-names>
             </name>
             <name>
-              <surname>Ghenis</surname>
-              <given-names>Max</given-names>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Paul</given-names>
             </name>
           </person-group>
-          <article-title>PolicyEngine UK</article-title>
-          <year iso-8601-date="2024">2024</year>
+          <article-title>Savings, independent taxation and the 1990 Budget</article-title>
+          <source>Institute for Fiscal Studies</source>
+          <year iso-8601-date="1991">1991</year>
           <date-in-citation content-type="access-date">
             <year iso-8601-date="2024-05-29">2024</year>
             <month>05</month>
             <day>29</day>
           </date-in-citation>
-          <uri>https://policyengine.org/uk/</uri>
+          <uri>https://ifs.org.uk/journals/savings-independent-taxation-and-1990-budget</uri>
         </element-citation>
       </ref>
     </ref-list>
