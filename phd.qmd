@@ -26,7 +26,7 @@ citation:
   doi: 10.5555/12345678
 funding: "The author received no specific funding for this work."
 bibliography: references.bib
-csl: /home/graham_s/pandoc_data/chicago-note-bibliography.csl
+csl: site_libs/citations/harvard-cite-them-right-11th-edition.csl
 
 ---
  
@@ -122,18 +122,9 @@ We discuss these in turn.
 
 Conjoint analysis (Hainmueller et al., 2013) is a survey-based technique originally developed as a market research tool, to examine how consumers value characteristics (sweetness, colour, alcohol content, etc.) of goods. Recently, the technique has become popular as a method for discovering the public’s relative valuations of competing economic or social policies (Bremer & Bürgisser, 2023). Research comparing conjoint survey experiments to actual votes has shown that the conjoint results are good predictors of voting outcomes (Bansak et al., 2023). 
 
-
 Our study is described in full in (Nettle et al., 2023), with the data available as (Johnson et al., 2023). The authors of that study recruited 800 UK resident adults through the Prolific online platform. Participants were asked repeatedly to choose their preferred welfare policy from sets of two. Each time, the two policies contained the same input (design) and outcome (health and distributional) attributes but with randomised levels in each (e.g. payment sizes of £63 per child, £145 per adult and £190 per pensioner; poverty decreased by 25% etc.).  Each participant completed 15 choice tasks. Each option within each task was defined by 10 attributes. Each attribute had three to nine possible levels.  Table 1 shows the full list of 10 attributes with between three and nine levels each.  
 
-Relative to the UK population, the sample contained an over-representation of people who 
-
-voted for the left to centre-left Labour party at the 2019 general election (44.3% of those in 
-
-our sample who voted, vs. 32.1% election result); and an under-representation of those 
-
-who voted for the right to centre-right Conservative party (31.8% versus 43.6% election 
-
-result). Although we did create survey weights to correct for this, TriplePC currently uses unweighted data. 
+Relative to the UK population, the sample contained an over-representation of people who voted for the left to centre-left Labour party at the 2019 general election (44.3% of those in  our sample who voted, vs. 32.1% election result); and an under-representation of those who voted for the right to centre-right Conservative party (31.8% versus 43.6% election result). Although we did create survey weights to correct for this, TriplePC currently uses unweighted data. 
 
 All options were fully randomly generated from the possible combinations. Instructions in the survey explained that participants might prefer some features in one policy and some in the other, but they needed to consider which policy they preferred overall. The attributes on which the policies varied were explained in greater depth prior to the first choice task, and then described just with brief phrases during the choice tasks themselves. Note that many of these randomly generated pairs are totally implausible. This is integral to how a fully randomized conjoint analysis works: by generating all the possible combinations, things that are actually correlated in real life (e.g. tax rates and poverty rates) are rendered orthogonal to one another. It is this that allows identification of their independent marginal effects.  
 
@@ -224,8 +215,6 @@ Our Family Resources Survey (FRS) dataset has no expenditure data. The main UK s
 
 In aggregate, our current VAT modelling under-predicts revenues by about 50%: we model £102bn for VAT revenues as against actual revenues for 2022/3 of £160bn (HMRC 2023). There are well-known problems with under-reporting LCF expenditure data such as of alcohol and tobacco spending (Reed 2012) which will account for much of this. For this exercise, we provide a crude fix by grossing up all the expenditure records by 1.5. Undoubtedly this is an area we can improve on.  
 
- 
-
 #### ‘Tax on wealth’ 
 
 Modelling wealth is tricky for three reasons: 
@@ -275,8 +264,6 @@ In our case, the conjoint analysis was conducted ahead of microsimulation modell
 There are also interesting questions about how best to present results of a model with such diverse outputs. For instance, since one is a stock and the other a flow, can we count payments by a household from a wealth tax in the same way as payments for income tax? And should we be imputing a monetary value to any health improvements?  
 
 I have presented the TriplePC, a new microsimulation model with novel but important features. We have established the importance and practicality of using conjoint data to provide instant analysis of the political implications of welfare packages, but also learned some important lessons on how best to conduct integrated microsimulation and conjoint analysis. We have also estimated new measures of the relationship between income and health and shown how these, too, can be integrated into the model. The TriplePC is available online at https://triplepc.northumbria.ac.uk/ and its source code, linked on the main site, is released under an open-source licence.  
-
- 
 
 ## Conclusion 
 
