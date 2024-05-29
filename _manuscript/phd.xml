@@ -75,9 +75,13 @@ work.</funding-statement>
   Northumbria which emerges from this work. I am a leading specialist in
   microsimulation modelling of tax-benefit systems, programming
   software, databases and interfaces. Most significantly, I am the
-  creator of TAXBEN (Johnson, Webb &amp; Stark 1990), the IFS’ tax and
-  benefit microsimulation model (Giles &amp; McCrae 1995), which
-  continues to be used to analyse Government tax-benefit reform.</p>
+  creator of TAXBEN
+  (<xref alt="Johnson, Webb and Stark, 1990" rid="ref-johnson_taxben2_1990" ref-type="bibr">Johnson,
+  Webb and Stark, 1990</xref>), the IFS’ tax and benefit microsimulation
+  model
+  (<xref alt="Giles and McCrae, 1995" rid="ref-giles_taxbenU003A_1995" ref-type="bibr">Giles
+  and McCrae, 1995</xref>), which continues to be used to analyse
+  Government tax-benefit reform.</p>
       <p>Having started my career in Economics at Lancaster University, I
   spent 18 years as Senior Research Officer at the IFS, before starting
   my own consultancy, Virtual Worlds. During my time at the IFS, I
@@ -107,135 +111,163 @@ work.</funding-statement>
   tool that enables projection of the health, health economic, economic
   and public opinion impacts of customisable welfare policies, which is
   described in a forthcoming article in the International Journal of
-  Microsimulation (Stark et al. 2024).</p>
+  Microsimulation
+  (<xref alt="Stark et al., 2024" rid="ref-stark_public_2024" ref-type="bibr">Stark
+  <italic>et al.</italic>, 2024</xref>).</p>
       <p>This thesis summary examines the underpinning research from three
   recent publications that assess the impact post-Financial Crisis era
-  interventions and potential interventions. The first report (Reed
-  &amp; Stark 2018) forecasts the impact of the Scottish Government’s
-  Child Poverty Plan. The second (Reed &amp; Stark 2020) assess the
-  impact of policy for care leavers in England. The final report, which
-  summarises the research conducted for Stark et al. (2024), describes
-  development of the TriplePC as part of a broader NIHR-funded tranche
-  of research on the impact of basic income on poverty, inequality and
-  health.</p>
+  interventions and potential interventions. The first report
+  (<xref alt="Reed and Stark, 2018" rid="ref-reed_tackling_2018" ref-type="bibr">Reed
+  and Stark, 2018</xref>) forecasts the impact of the Scottish
+  Government’s Child Poverty Plan. The second
+  (<xref alt="Reed and Stark, 2020" rid="ref-reed_giving_2020" ref-type="bibr">Reed
+  and Stark, 2020</xref>) assess the impact of policy for care leavers
+  in England. The final report, which summarises the research conducted
+  for Stark et al.
+  (<xref alt="Stark et al., 2024" rid="ref-stark_public_2024" ref-type="bibr">Stark
+  <italic>et al.</italic>, 2024</xref>), describes development of the
+  TriplePC as part of a broader NIHR-funded tranche of research on the
+  impact of basic income on poverty, inequality and health.</p>
     </sec>
     <sec id="chapter-1-microsimulation-modelling">
       <title>Chapter 1: Microsimulation modelling</title>
-      <p>Microsimulation Modelling</p>
-      <p>(Johnson and Stark 19, King and Stark 19xx, Coulter, Heady and
-  Stark 199x, King and Stark 1985, Duncan and Stark 20xx)</p>
-      <p>Microsimulation is the study of social phenomena using computer
-  simulations on individual-level data, such as people and
-  companies.</p>
+      <p>Microsimulation Modelling is:</p>
+      <disp-quote>
+        <p>the application of simulation methods to micro data for the
+    purposes of evaluating the effectiveness and improving the design of
+    public policy. The field has existed for over 50 years and has been
+    applied to many different policy areas and is a methodology that is
+    applied within both government and academia.
+    (<xref alt="O’Donoghue, 2014" rid="ref-odonoghue_handbook_2014" ref-type="bibr">O’Donoghue,
+    2014</xref>)</p>
+      </disp-quote>
       <p>The canonical microsimulation is the Tax Benefit Model, which
-  models the effects of the fiscal system on individuals and households.
-  As such, I developed TAXBEN2, the complete model rewrite. An updated
-  version of that that model remains in use today. 25 years on it still
-  has many technical advantages over competitor models such as Euromod.
-  The Institute for Fiscal Studies had a such a model before I joined,
-  but it was unsatisfactory in many ways. The application of TAXBEN2
-  included analysis of the UK Capital Gains Tax (King and Stark), and
-  calculation of the often highly non-linear relationships between what
-  people earn and what they get to keep (Duncan &amp; Stark 2000).
-  Subsequently, we built similar models for former Soviet Block
-  countries using similar methods. Coulter, Stark and Smith (1995)
-  describes one such model for the former Czechoslovakia. King and Stark
-  (?)</p>
+  models the effects of the fiscal system on individuals and
+  households.</p>
+      <p>As such, I developed TAXBEN2, the complete model rewrite. An
+  updated version of that that model remains in use today. 25 years on
+  it still has many technical advantages over competitor models such as
+  Euromod. The Institute for Fiscal Studies had a such a model before I
+  joined, but it was unsatisfactory in many ways. The application of
+  TAXBEN2 included analysis of the UK Capital Gains Tax
+  (<xref alt="Stark and King, 1986" rid="ref-stark_modelling_1986" ref-type="bibr">Stark
+  and King, 1986</xref>), and calculation of the often highly non-linear
+  relationships between what people earn and what they get to keep
+  (<xref alt="Duncan and Stark, 2000" rid="ref-duncan_recursive_2000" ref-type="bibr">Duncan
+  and Stark, 2000</xref>). Subsequently, we built similar models for
+  former Soviet Block countries using similar methods.
+  (<xref alt="Coulter, Stark and Smith, 1995" rid="ref-coulter_micro-simulation_1995" ref-type="bibr">Coulter,
+  Stark and Smith, 1995</xref>) describes one such model for the former
+  Czechoslovakia.</p>
     </sec>
     <sec id="applications-of-microsimulation">
       <title>Applications of Microsimulation</title>
       <p>(Stark 198x, Dilnot and Stark 19xx 19xx, Johnson and Stark 19xx,
   19xx)</p>
       <p>The most impactful aspect of microsimulation analysis lies in
-  forecasting important possible policy changes. Stark (1986) analyses
-  the move from taxing husbands and wives jointly to the individual
-  taxation we have today. One consequence of that change was that
-  families with two earners could now receive more tax allowances than
-  families with a single earners, and this paper is one of several I
-  wrote exploring proposed ‘transferrable allowances’ that would address
-  this. As with all the papers I produced during this period, it is
-  possible that some of this analysis seems commonplace now. However,
-  the ability to describe the impact of such changes on the incomes of
-  different types of family, incentives to work, and tax revenues was
-  very new at the time and attracted widespread interest among the
-  media, policy makers, and academics.</p>
-      <p>For example, Dilnot and Stark (1986a; 1986b) are analyses of the
-  now widely-recognised poverty trap. As a family’s income rose from a
-  low level, the withdrawal of means-tested benefits along with
-  increases in taxes could leave them no better off, or even worse off.
-  These papers were the first to show that the numbers of families
-  affected by very high withdrawal rates were at the time likely quite
-  small. Taper rates in Universal Credit and the general increase in the
-  number of people on low incomes means that that number is much higher,
-  emphasising that the relevance of the work some 38 years on.</p>
-      <p>Likewise, Johnson and Stark (1991) was the first study of the
-  distributional effects of a UK minimum wage. It showed that the likely
-  gains were mostly amongst second earners, meaning that the gains were
+  forecasting important possible policy changes.
+  (<xref alt="STARK, 1988" rid="ref-stark_partially_1988" ref-type="bibr">STARK,
+  1988</xref>) analyses the move from taxing husbands and wives jointly
+  to the individual taxation we have today. One consequence of that
+  change was that families with two earners could now receive more tax
+  allowances than families with a single earners, and this paper is one
+  of several I wrote exploring proposed ‘transferrable allowances’ that
+  would address this. As with all the papers I produced during this
+  period, it is possible that some of this analysis seems commonplace
+  now. However, the ability to describe the impact of such changes on
+  the incomes of different types of family, incentives to work, and tax
+  revenues was very new at the time and attracted widespread interest
+  among the media, policy makers, and academics.</p>
+      <p>For example,
+  (<xref alt="DILNOT and STARK, 1986" rid="ref-dilnot_poverty_1986" ref-type="bibr">DILNOT
+  and STARK, 1986</xref>;
+  <xref alt="DILNOT, STARK and WEBB, 1987" rid="ref-dilnot_targeting_1987" ref-type="bibr">DILNOT,
+  STARK and WEBB, 1987</xref>) are analyses of the now widely-recognised
+  poverty trap. As a family’s income rose from a low level, the
+  withdrawal of means-tested benefits along with increases in taxes
+  could leave them no better off, or even worse off. These papers were
+  the first to show that the numbers of families affected by very high
+  withdrawal rates were at the time likely quite small. Taper rates in
+  Universal Credit and the general increase in the number of people on
+  low incomes means that that number is much higher, emphasising that
+  the relevance of the work some 38 years on.</p>
+      <p>Likewise,
+  (<xref alt="JOHNSON and STARK, 1991" rid="ref-johnson_effects_1991" ref-type="bibr">JOHNSON
+  and STARK, 1991</xref>) was the first study of the distributional
+  effects of a UK minimum wage. It showed that the likely gains were
+  mostly amongst second earners, meaning that the gains were
   predominantly to the middle of the income distribution. This result
   was not appreciated at the time, but has largely been overtaken by
   social changes. Johnson and Stark (199) was my attempt at a ‘How to
   Lie with statistics’ paper specifically about tax policy, and written
   as a reaction to media coverage of the tax policies proposed in the
-  1992 general election. Stark and Johnson (1989) summarised the
-  entirety of the tax and benefit policy of the Thatcher Government in a
-  concise but consistent way, showing how overall changes were highly
-  regressive. This work, overall, has highlighted the extent to which
-  the 1979-1997 Governments produced significant increases in inequality
-  and presented analysis of means of achieving progressive reform.</p>
+  1992 general election.
+  (<xref alt="JOHNSON and STARK, 1989" rid="ref-johnson_ten_1989-1" ref-type="bibr">JOHNSON
+  and STARK, 1989</xref>) summarised the entirety of the tax and benefit
+  policy of the Thatcher Government in a concise but consistent way,
+  showing how overall changes were highly regressive. This work,
+  overall, has highlighted the extent to which the 1979-1997 Governments
+  produced significant increases in inequality and presented analysis of
+  means of achieving progressive reform.</p>
+      <sec id="benefit-takeup">
+        <title>Benefit Takeup</title>
+        <p>(Fry and Stark 198x, 1994; Buck and Stark 20xx, 20yy))</p>
+        <p>The UK’s benefit system is largely means-tested. Entitlement to
+    Universal Credit, Working Tax Credit and the like depend on family
+    income, with benefits being withdrawn as income rise. Along with the
+    Poverty Trap discussed above, the key problem with means testing is
+    that these benefits may not be claimed, largely because of stigma or
+    because of the complexity of claiming them. Ours were the first
+    studies to use microsimulation techniques to study non-take up
+    (e.g. Fry &amp; Stark 1987; 1992; 1993). A key result is that takeup
+    is higher for large entitlements, which provides support for the
+    ‘disutility’ model of take-up. Studies using our microsimulation
+    methods have since become a mini-industry (Moffat xx, (some
+    survey)).</p>
+        <p>Highlighting complexity and stigma as likely important factors in
+    limiting the effectiveness of means-tested benefits has clear
+    relevance to my later work on less conditional welfare reforms, such
+    as basic income, but my initial response was to examine more focused
+    policies such as Legal Aid Means-Testing. I used microsimulation to
+    answer the question: ‘what is the simplest set of rules that could
+    achieve some set of objectives - the numbers and types of families
+    eligible, overall expenditure and administrative costs and so on?’
+    The work had significant impact, directly contributing to reforms to
+    Legal Aid means tests, though the positive impact was largely
+    cancelled out by subsequent large cuts to the legal aid budget.
+    Subsequently, there was interest in the simplification question in
+    Government, including an ‘Office for Tax Simplification’. However,
+    this often combined simplification with sweeping distributional
+    changes that produced more complex implementation issues.</p>
+      </sec>
+      <sec id="budget-analysis">
+        <title>Budget Analysis</title>
+        <p>One of the key founding missions of IFS was to provide timely,
+    detailed analysis of actual and proposed budget changes. My work
+    with Paul Johnson, Andrew Dilnot, Evan Davis and others illustrate
+    the contribution of microsimulation to this (Johnson &amp; Stark
+    1991; Davis et al. 1992; Johnson, Webb &amp; Stark 1987 Dilnot, et
+    al. 1987). These, too, may seem commonplace now, although analysis
+    of budgets is mostly focussed on public finances in the aggregate.
+    However, at the time, rapid, detailed analysis of the distributional
+    and incentive effects of budgets was new and had a huge impact in
+    the wider discourse.</p>
+        <p>My more recent work in this area includes papers for the Office
+    of the Scottish Charities Register (OSCR), which were concerned with
+    granting charitable status to institutions, such as private schools
+    or golf clubs, that few people could afford (Reed &amp; Stark 2009).
+    I first examined the literature on affordability as applied to, for
+    example, affordable housing, fines levied by the courts and fuel
+    poverty. I then described a microsimulation model that shows the
+    proportions of households who might be able to afford the proposed
+    fees of some applicant for charitable status. Again, I believe this
+    was the first model of its kind.</p>
+      </sec>
     </sec>
-    <sec id="benefit-takeup">
-      <title>Benefit Takeup</title>
-      <p>(Fry and Stark 198x, 1994; Buck and Stark 20xx, 20yy))</p>
-      <p>The UK’s benefit system is largely means-tested. Entitlement to
-  Universal Credit, Working Tax Credit and the like depend on family
-  income, with benefits being withdrawn as income rise. Along with the
-  Poverty Trap discussed above, the key problem with means testing is
-  that these benefits may not be claimed, largely because of stigma or
-  because of the complexity of claiming them. Ours were the first
-  studies to use microsimulation techniques to study non-take up
-  (e.g. Fry &amp; Stark 1987; 1992; 1993). A key result is that takeup
-  is higher for large entitlements, which provides support for the
-  ‘disutility’ model of take-up. Studies using our microsimulation
-  methods have since become a mini-industry (Moffat xx, (some
-  survey)).</p>
-      <p>Highlighting complexity and stigma as likely important factors in
-  limiting the effectiveness of means-tested benefits has clear
-  relevance to my later work on less conditional welfare reforms, such
-  as basic income, but my initial response was to examine more focused
-  policies such as Legal Aid Means-Testing. I used microsimulation to
-  answer the question: ‘what is the simplest set of rules that could
-  achieve some set of objectives - the numbers and types of families
-  eligible, overall expenditure and administrative costs and so on?’ The
-  work had significant impact, directly contributing to reforms to Legal
-  Aid means tests, though the positive impact was largely cancelled out
-  by subsequent large cuts to the legal aid budget. Subsequently, there
-  was interest in the simplification question in Government, including
-  an ‘Office for Tax Simplification’. However, this often combined
-  simplification with sweeping distributional changes that produced more
-  complex implementation issues.</p>
-    </sec>
-    <sec id="budget-analysis">
-      <title>Budget Analysis</title>
-      <p>One of the key founding missions of IFS was to provide timely,
-  detailed analysis of actual and proposed budget changes. My work with
-  Paul Johnson, Andrew Dilnot, Evan Davis and others illustrate the
-  contribution of microsimulation to this (Johnson &amp; Stark 1991;
-  Davis et al. 1992; Johnson, Webb &amp; Stark 1987 Dilnot, et
-  al. 1987). These, too, may seem commonplace now, although analysis of
-  budgets is mostly focussed on public finances in the aggregate.
-  However, at the time, rapid, detailed analysis of the distributional
-  and incentive effects of budgets was new and had a huge impact in the
-  wider discourse.</p>
-      <p>My more recent work in this area includes papers for the Office of
-  the Scottish Charities Register (OSCR), which were concerned with
-  granting charitable status to institutions, such as private schools or
-  golf clubs, that few people could afford (Reed &amp; Stark 2009). I
-  first examined the literature on affordability as applied to, for
-  example, affordable housing, fines levied by the courts and fuel
-  poverty. I then described a microsimulation model that shows the
-  proportions of households who might be able to afford the proposed
-  fees of some applicant for charitable status. Again, I believe this
-  was the first model of its kind.</p>
+    <sec id="chapter-2-building-a-tax-benefit-model-a-narrative">
+      <title>Chapter 2: Building A Tax-Benefit Model: A Narrative</title>
+      <p>Most<xref ref-type="fn" rid="fn1">1</xref> current UK Tax Benefit
+  models are t</p>
     </sec>
     <sec id="chapter-2-austerity-era-interventions">
       <title>Chapter 2: Austerity era interventions</title>
@@ -379,15 +411,13 @@ work.</funding-statement>
   nine possible levels. Table 1 shows the full list of 10 attributes
   with between three and nine levels each.</p>
       <p>Relative to the UK population, the sample contained an
-  over-representation of people who</p>
-      <p>voted for the left to centre-left Labour party at the 2019 general
-  election (44.3% of those in</p>
-      <p>our sample who voted, vs. 32.1% election result); and an
-  under-representation of those</p>
-      <p>who voted for the right to centre-right Conservative party (31.8%
-  versus 43.6% election</p>
-      <p>result). Although we did create survey weights to correct for this,
-  TriplePC currently uses unweighted data.</p>
+  over-representation of people who voted for the left to centre-left
+  Labour party at the 2019 general election (44.3% of those in our
+  sample who voted, vs. 32.1% election result); and an
+  under-representation of those who voted for the right to centre-right
+  Conservative party (31.8% versus 43.6% election result). Although we
+  did create survey weights to correct for this, TriplePC currently uses
+  unweighted data.</p>
       <p>All options were fully randomly generated from the possible
   combinations. Instructions in the survey explained that participants
   might prefer some features in one policy and some in the other, but
@@ -1018,5 +1048,346 @@ work.</funding-statement>
     </sec>
   </body>
   <back>
-</back>
+    <ref-list>
+      <title/>
+      <ref id="ref-stark_modelling_1986">
+        <element-citation publication-type="report">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>John</given-names>
+            </name>
+          </person-group>
+          <article-title>Modelling the UK Capital Gains Tax</article-title>
+          <publisher-name>Institute for Fiscal Studies</publisher-name>
+          <year iso-8601-date="1986">1986</year>
+        </element-citation>
+      </ref>
+      <ref id="ref-reed_tackling_2018">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reed</surname>
+              <given-names>Howard</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>Tackling Child Poverty Delivery Plan - Forecasting Child Poverty in Scotland</article-title>
+          <publisher-name>Scottish Government</publisher-name>
+          <year iso-8601-date="2018-03">2018</year>
+          <month>03</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2018-04-23">2018</year>
+            <month>04</month>
+            <day>23</day>
+          </date-in-citation>
+          <uri>http://www.gov.scot/Publications/2018/03/2911/0</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-reed_giving_2020">
+        <element-citation publication-type="report">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reed</surname>
+              <given-names>Howard</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>Giving care leavers the chance to stay: Staying Put six years on: Technical Report</article-title>
+          <publisher-name>Action for Children England</publisher-name>
+          <year iso-8601-date="2020">2020</year>
+        </element-citation>
+      </ref>
+      <ref id="ref-coulter_micro-simulation_1995">
+        <element-citation publication-type="report">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coulter</surname>
+              <given-names>Fiona</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>Stephen</given-names>
+            </name>
+          </person-group>
+          <article-title>Micro-simulation modelling of personal taxation and social security benefits in the Czech Republic</article-title>
+          <year iso-8601-date="1995">1995</year>
+        </element-citation>
+      </ref>
+      <ref id="ref-duncan_recursive_2000">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duncan</surname>
+              <given-names>Alan</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>A recursive algorithm to generate piecewise linear budget contraints</article-title>
+          <year iso-8601-date="2000-05">2000</year>
+          <month>05</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2021-12-12">2021</year>
+            <month>12</month>
+            <day>12</day>
+          </date-in-citation>
+          <uri>https://ifs.org.uk/publications/2063</uri>
+          <pub-id pub-id-type="doi">10.1920/wp.ifs.2000.0011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-johnson_taxben2_1990">
+        <element-citation publication-type="report">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>Steven</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>TAXBEN2: The New IFS tax and Benefit Model</article-title>
+          <year iso-8601-date="1990-05">1990</year>
+          <month>05</month>
+        </element-citation>
+      </ref>
+      <ref id="ref-johnson_effects_1991">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>JOHNSON</surname>
+              <given-names>PAUL</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+          </person-group>
+          <article-title>The Effects of a Minimum Wage on Family Incomes</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1991">1991</year>
+          <volume>12</volume>
+          <issue>3</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1991.tb00164.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1991.tb00164.x</pub-id>
+          <fpage>88</fpage>
+          <lpage>93</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-johnson_ten_1989-1">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>JOHNSON</surname>
+              <given-names>PAUL</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+          </person-group>
+          <article-title>Ten Years of Mrs Thatcher: The Distributional Consequences</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1989">1989</year>
+          <volume>10</volume>
+          <issue>2</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1989.tb00107.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1989.tb00107.x</pub-id>
+          <fpage>29</fpage>
+          <lpage>37</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-stark_partially_1988">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+          </person-group>
+          <article-title>Partially Transferable Allowances</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1988">1988</year>
+          <volume>9</volume>
+          <issue>1</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1988.tb00310.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1988.tb00310.x</pub-id>
+          <fpage>29</fpage>
+          <lpage>40</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-dilnot_targeting_1987">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DILNOT</surname>
+              <given-names>ANDREW</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>GRAHAM</given-names>
+            </name>
+            <name>
+              <surname>WEBB</surname>
+              <given-names>STEVEN</given-names>
+            </name>
+          </person-group>
+          <article-title>The Targeting of Benefits: Two Approaches</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1987">1987</year>
+          <volume>8</volume>
+          <issue>1</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1987.tb00434.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1987.tb00434.x</pub-id>
+          <fpage>83</fpage>
+          <lpage>93</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-dilnot_poverty_1986">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DILNOT</surname>
+              <given-names>A. W.</given-names>
+            </name>
+            <name>
+              <surname>STARK</surname>
+              <given-names>G. K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Poverty Trap, Tax Cuts, and the Reform of Social Security</article-title>
+          <source>Fiscal Studies</source>
+          <year iso-8601-date="1986">1986</year>
+          <volume>7</volume>
+          <issue>1</issue>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1475-5890.1986.tb00410.x</uri>
+          <pub-id pub-id-type="doi">https://doi.org/10.1111/j.1475-5890.1986.tb00410.x</pub-id>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-giles_taxbenU003A_1995">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giles</surname>
+              <given-names>Christopher</given-names>
+            </name>
+            <name>
+              <surname>McCrae</surname>
+              <given-names>Julian</given-names>
+            </name>
+          </person-group>
+          <article-title>TAXBEN: The IFS microsimulation tax and benefit model</article-title>
+          <year iso-8601-date="1995-01">1995</year>
+          <month>01</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2017-12-06">2017</year>
+            <month>12</month>
+            <day>06</day>
+          </date-in-citation>
+          <issn>1742-0415</issn>
+          <uri>https://www.ifs.org.uk/publications/572</uri>
+          <pub-id pub-id-type="doi">10.1920/wp.ifs.1995.9519</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-stark_public_2024">
+        <element-citation publication-type="manuscript">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Reed</surname>
+              <given-names>Howard</given-names>
+            </name>
+            <name>
+              <surname>Nettle</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Elliott</given-names>
+            </name>
+          </person-group>
+          <article-title>The Public Policy Preference Calculator (TriplePC): Developing a comprehensive welfare policy microsimulation</article-title>
+          <year iso-8601-date="2024">2024</year>
+          <uri>https://virtual-worlds.scot/triplepc/triplepc-microsim-paper-draft.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-odonoghue_handbook_2014">
+        <element-citation publication-type="book">
+          <source>Handbook of microsimulation modelling</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>O’Donoghue</surname>
+              <given-names>Cathal</given-names>
+            </name>
+          </person-group>
+          <year iso-8601-date="2014-06">2014</year>
+          <month>06</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2024-05-29">2024</year>
+            <month>05</month>
+            <day>29</day>
+          </date-in-citation>
+          <uri>https://www.microsimulation.ac.uk/publications/publication-522948/</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-woodruff_policyengine_2024">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woodruff</surname>
+              <given-names>Nikhil</given-names>
+            </name>
+            <name>
+              <surname>Ghenis</surname>
+              <given-names>Max</given-names>
+            </name>
+          </person-group>
+          <article-title>PolicyEngine UK</article-title>
+          <year iso-8601-date="2024">2024</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2024-05-29">2024</year>
+            <month>05</month>
+            <day>29</day>
+          </date-in-citation>
+          <uri>https://policyengine.org/uk/</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="fn1">
+        <label>1</label>
+        <p>The exeption is Policy Engine, an interesting new
+    kid on the block
+    (<xref alt="Woodruff and Ghenis, 2024" rid="ref-woodruff_policyengine_2024" ref-type="bibr">Woodruff
+    and Ghenis, 2024</xref>)</p>
+      </fn>
+    </fn-group>
+  </back>
 </article>

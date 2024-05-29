@@ -91,6 +91,39 @@
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \KOMAoption{captions}{tableheading}
 \makeatletter
@@ -175,9 +208,9 @@ publications developed in my role as Senior Research Policy at
 Northumbria which emerges from this work. I am a leading specialist in
 microsimulation modelling of tax-benefit systems, programming software,
 databases and interfaces. Most significantly, I am the creator of TAXBEN
-(Johnson, Webb \& Stark 1990), the IFS' tax and benefit microsimulation
-model (Giles \& McCrae 1995), which continues to be used to analyse
-Government tax-benefit reform.
+(Johnson, Webb and Stark, 1990), the IFS' tax and benefit
+microsimulation model (Giles and McCrae, 1995), which continues to be
+used to analyse Government tax-benefit reform.
 
 Having started my career in Economics at Lancaster University, I spent
 18 years as Senior Research Officer at the IFS, before starting my own
@@ -209,43 +242,47 @@ Policy Preference Calculator, https://triplepc.northumbria.ac.uk/), a
 unique online microsimulation tool that enables projection of the
 health, health economic, economic and public opinion impacts of
 customisable welfare policies, which is described in a forthcoming
-article in the International Journal of Microsimulation (Stark et
-al.~2024).
+article in the International Journal of Microsimulation (Stark \emph{et
+al.}, 2024).
 
 This thesis summary examines the underpinning research from three recent
 publications that assess the impact post-Financial Crisis era
-interventions and potential interventions. The first report (Reed \&
-Stark 2018) forecasts the impact of the Scottish Government's Child
-Poverty Plan. The second (Reed \& Stark 2020) assess the impact of
+interventions and potential interventions. The first report (Reed and
+Stark, 2018) forecasts the impact of the Scottish Government's Child
+Poverty Plan. The second (Reed and Stark, 2020) assess the impact of
 policy for care leavers in England. The final report, which summarises
-the research conducted for Stark et al.~(2024), describes development of
-the TriplePC as part of a broader NIHR-funded tranche of research on the
-impact of basic income on poverty, inequality and health.
+the research conducted for Stark et al. (Stark \emph{et al.}, 2024),
+describes development of the TriplePC as part of a broader NIHR-funded
+tranche of research on the impact of basic income on poverty, inequality
+and health.
 
 \subsection{Chapter 1: Microsimulation
 modelling}\label{chapter-1-microsimulation-modelling}
 
-Microsimulation Modelling
+Microsimulation Modelling is:
 
-(Johnson and Stark 19, King and Stark 19xx, Coulter, Heady and Stark
-199x, King and Stark 1985, Duncan and Stark 20xx)
-
-Microsimulation is the study of social phenomena using computer
-simulations on individual-level data, such as people and companies.
+\begin{quote}
+the application of simulation methods to micro data for the purposes of
+evaluating the effectiveness and improving the design of public policy.
+The field has existed for over 50 years and has been applied to many
+different policy areas and is a methodology that is applied within both
+government and academia. (O'Donoghue, 2014)
+\end{quote}
 
 The canonical microsimulation is the Tax Benefit Model, which models the
-effects of the fiscal system on individuals and households. As such, I
-developed TAXBEN2, the complete model rewrite. An updated version of
-that that model remains in use today. 25 years on it still has many
-technical advantages over competitor models such as Euromod. The
-Institute for Fiscal Studies had a such a model before I joined, but it
-was unsatisfactory in many ways. The application of TAXBEN2 included
-analysis of the UK Capital Gains Tax (King and Stark), and calculation
-of the often highly non-linear relationships between what people earn
-and what they get to keep (Duncan \& Stark 2000). Subsequently, we built
-similar models for former Soviet Block countries using similar methods.
-Coulter, Stark and Smith (1995) describes one such model for the former
-Czechoslovakia. King and Stark (?)
+effects of the fiscal system on individuals and households.
+
+As such, I developed TAXBEN2, the complete model rewrite. An updated
+version of that that model remains in use today. 25 years on it still
+has many technical advantages over competitor models such as Euromod.
+The Institute for Fiscal Studies had a such a model before I joined, but
+it was unsatisfactory in many ways. The application of TAXBEN2 included
+analysis of the UK Capital Gains Tax (Stark and King, 1986), and
+calculation of the often highly non-linear relationships between what
+people earn and what they get to keep (Duncan and Stark, 2000).
+Subsequently, we built similar models for former Soviet Block countries
+using similar methods. (Coulter, Stark and Smith, 1995) describes one
+such model for the former Czechoslovakia.
 
 \subsection{Applications of
 Microsimulation}\label{applications-of-microsimulation}
@@ -253,30 +290,30 @@ Microsimulation}\label{applications-of-microsimulation}
 (Stark 198x, Dilnot and Stark 19xx 19xx, Johnson and Stark 19xx, 19xx)
 
 The most impactful aspect of microsimulation analysis lies in
-forecasting important possible policy changes. Stark (1986) analyses the
-move from taxing husbands and wives jointly to the individual taxation
-we have today. One consequence of that change was that families with two
-earners could now receive more tax allowances than families with a
-single earners, and this paper is one of several I wrote exploring
-proposed `transferrable allowances' that would address this. As with all
-the papers I produced during this period, it is possible that some of
-this analysis seems commonplace now. However, the ability to describe
-the impact of such changes on the incomes of different types of family,
-incentives to work, and tax revenues was very new at the time and
-attracted widespread interest among the media, policy makers, and
+forecasting important possible policy changes. (STARK, 1988) analyses
+the move from taxing husbands and wives jointly to the individual
+taxation we have today. One consequence of that change was that families
+with two earners could now receive more tax allowances than families
+with a single earners, and this paper is one of several I wrote
+exploring proposed `transferrable allowances' that would address this.
+As with all the papers I produced during this period, it is possible
+that some of this analysis seems commonplace now. However, the ability
+to describe the impact of such changes on the incomes of different types
+of family, incentives to work, and tax revenues was very new at the time
+and attracted widespread interest among the media, policy makers, and
 academics.
 
-For example, Dilnot and Stark (1986a; 1986b) are analyses of the now
-widely-recognised poverty trap. As a family's income rose from a low
-level, the withdrawal of means-tested benefits along with increases in
-taxes could leave them no better off, or even worse off. These papers
-were the first to show that the numbers of families affected by very
-high withdrawal rates were at the time likely quite small. Taper rates
-in Universal Credit and the general increase in the number of people on
-low incomes means that that number is much higher, emphasising that the
-relevance of the work some 38 years on.
+For example, (DILNOT and STARK, 1986; DILNOT, STARK and WEBB, 1987) are
+analyses of the now widely-recognised poverty trap. As a family's income
+rose from a low level, the withdrawal of means-tested benefits along
+with increases in taxes could leave them no better off, or even worse
+off. These papers were the first to show that the numbers of families
+affected by very high withdrawal rates were at the time likely quite
+small. Taper rates in Universal Credit and the general increase in the
+number of people on low incomes means that that number is much higher,
+emphasising that the relevance of the work some 38 years on.
 
-Likewise, Johnson and Stark (1991) was the first study of the
+Likewise, (JOHNSON and STARK, 1991) was the first study of the
 distributional effects of a UK minimum wage. It showed that the likely
 gains were mostly amongst second earners, meaning that the gains were
 predominantly to the middle of the income distribution. This result was
@@ -284,14 +321,14 @@ not appreciated at the time, but has largely been overtaken by social
 changes. Johnson and Stark (199) was my attempt at a `How to Lie with
 statistics' paper specifically about tax policy, and written as a
 reaction to media coverage of the tax policies proposed in the 1992
-general election. Stark and Johnson (1989) summarised the entirety of
+general election. (JOHNSON and STARK, 1989) summarised the entirety of
 the tax and benefit policy of the Thatcher Government in a concise but
 consistent way, showing how overall changes were highly regressive. This
 work, overall, has highlighted the extent to which the 1979-1997
 Governments produced significant increases in inequality and presented
 analysis of means of achieving progressive reform.
 
-\subsection{Benefit Takeup}\label{benefit-takeup}
+\subsubsection{Benefit Takeup}\label{benefit-takeup}
 
 (Fry and Stark 198x, 1994; Buck and Stark 20xx, 20yy))
 
@@ -323,7 +360,7 @@ interest in the simplification question in Government, including an
 simplification with sweeping distributional changes that produced more
 complex implementation issues.
 
-\subsection{Budget Analysis}\label{budget-analysis}
+\subsubsection{Budget Analysis}\label{budget-analysis}
 
 One of the key founding missions of IFS was to provide timely, detailed
 analysis of actual and proposed budget changes. My work with Paul
@@ -345,6 +382,13 @@ described a microsimulation model that shows the proportions of
 households who might be able to afford the proposed fees of some
 applicant for charitable status. Again, I believe this was the first
 model of its kind.
+
+\subsection{Chapter 2: Building A Tax-Benefit Model: A
+Narrative}\label{chapter-2-building-a-tax-benefit-model-a-narrative}
+
+Most\footnote{The exeption is Policy Engine, an interesting new kid on
+  the block (Woodruff and Ghenis, 2024)} current UK Tax Benefit models
+are t
 
 \subsection{Chapter 2: Austerity era
 interventions}\label{chapter-2-austerity-era-interventions}
@@ -496,19 +540,12 @@ levels. Table 1 shows the full list of 10 attributes with between three
 and nine levels each.
 
 Relative to the UK population, the sample contained an
-over-representation of people who
-
-voted for the left to centre-left Labour party at the 2019 general
-election (44.3\% of those in
-
-our sample who voted, vs.~32.1\% election result); and an
-under-representation of those
-
-who voted for the right to centre-right Conservative party (31.8\%
-versus 43.6\% election
-
-result). Although we did create survey weights to correct for this,
-TriplePC currently uses unweighted data.
+over-representation of people who voted for the left to centre-left
+Labour party at the 2019 general election (44.3\% of those in our sample
+who voted, vs.~32.1\% election result); and an under-representation of
+those who voted for the right to centre-right Conservative party (31.8\%
+versus 43.6\% election result). Although we did create survey weights to
+correct for this, TriplePC currently uses unweighted data.
 
 All options were fully randomly generated from the possible
 combinations. Instructions in the survey explained that participants
@@ -1136,6 +1173,87 @@ Johnson, Matthew T. 2024 in press. The Public Policy Preference
 Calculator (TriplePC): Developing a comprehensive welfare policy
 microsimulation. International Journal of Microsimulation. Working
 paper: https://doi.org/10.17605/OSF.IO/SKPYB
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{0}{1}
+\bibitem[\citeproctext]{ref-coulter_micro-simulation_1995}
+Coulter, F., Stark, G. and Smith, S. (1995) \emph{Micro-simulation
+modelling of personal taxation and social security benefits in the
+{Czech} {Republic}}.
+
+\bibitem[\citeproctext]{ref-dilnot_targeting_1987}
+DILNOT, A., STARK, G. and WEBB, S. (1987) {`The {Targeting} of
+{Benefits}: {Two} {Approaches}'}, \emph{Fiscal Studies}, 8(1), pp.
+83--93. doi:\url{https://doi.org/10.1111/j.1475-5890.1987.tb00434.x}.
+
+\bibitem[\citeproctext]{ref-dilnot_poverty_1986}
+DILNOT, A.W. and STARK, G.K. (1986) {`The {Poverty} {Trap}, {Tax}
+{Cuts}, and the {Reform} of {Social} {Security}'}, \emph{Fiscal
+Studies}, 7(1), pp. 1--10.
+doi:\url{https://doi.org/10.1111/j.1475-5890.1986.tb00410.x}.
+
+\bibitem[\citeproctext]{ref-duncan_recursive_2000}
+Duncan, A. and Stark, G. (2000) {`A recursive algorithm to generate
+piecewise linear budget contraints'}.
+doi:\href{https://doi.org/10.1920/wp.ifs.2000.0011}{10.1920/wp.ifs.2000.0011}.
+
+\bibitem[\citeproctext]{ref-giles_taxben:_1995}
+Giles, C. and McCrae, J. (1995) {`{TAXBEN}: The {IFS} microsimulation
+tax and benefit model'}.
+doi:\href{https://doi.org/10.1920/wp.ifs.1995.9519}{10.1920/wp.ifs.1995.9519}.
+
+\bibitem[\citeproctext]{ref-johnson_ten_1989-1}
+JOHNSON, P. and STARK, G. (1989) {`Ten {Years} of {Mrs} {Thatcher}: The
+{Distributional} {Consequences}'}, \emph{Fiscal Studies}, 10(2), pp.
+29--37. doi:\url{https://doi.org/10.1111/j.1475-5890.1989.tb00107.x}.
+
+\bibitem[\citeproctext]{ref-johnson_effects_1991}
+JOHNSON, P. and STARK, G. (1991) {`The {Effects} of a {Minimum} {Wage}
+on {Family} {Incomes}'}, \emph{Fiscal Studies}, 12(3), pp. 88--93.
+doi:\url{https://doi.org/10.1111/j.1475-5890.1991.tb00164.x}.
+
+\bibitem[\citeproctext]{ref-johnson_taxben2_1990}
+Johnson, P., Webb, S. and Stark, G. (1990) \emph{{TAXBEN2}: {The} {New}
+{IFS} tax and {Benefit} {Model}}. IFS Working Paper W90/5.
+
+\bibitem[\citeproctext]{ref-odonoghue_handbook_2014}
+O'Donoghue, C. (ed.) (2014) \emph{Handbook of microsimulation
+modelling}. Available at:
+\url{https://www.microsimulation.ac.uk/publications/publication-522948/}
+(Accessed: 29 May 2024).
+
+\bibitem[\citeproctext]{ref-reed_tackling_2018}
+Reed, H. and Stark, G. (2018) {`Tackling {Child} {Poverty} {Delivery}
+{Plan} - {Forecasting} {Child} {Poverty} in {Scotland}'}. Scottish
+Government. Available at:
+\url{http://www.gov.scot/Publications/2018/03/2911/0} (Accessed: 23
+April 2018).
+
+\bibitem[\citeproctext]{ref-reed_giving_2020}
+Reed, H. and Stark, G. (2020) \emph{Giving care leavers the chance to
+stay: {Staying} {Put} six years on: {Technical} {Report}}. Action for
+Children England.
+
+\bibitem[\citeproctext]{ref-stark_partially_1988}
+STARK, G. (1988) {`Partially {Transferable} {Allowances}'}, \emph{Fiscal
+Studies}, 9(1), pp. 29--40.
+doi:\url{https://doi.org/10.1111/j.1475-5890.1988.tb00310.x}.
+
+\bibitem[\citeproctext]{ref-stark_public_2024}
+Stark, G. \emph{et al.} (2024) {`The {Public} {Policy} {Preference}
+{Calculator} ({TriplePC}): {Developing} a comprehensive welfare policy
+microsimulation'}. Available at:
+\url{https://virtual-worlds.scot/triplepc/triplepc-microsim-paper-draft.pdf}.
+
+\bibitem[\citeproctext]{ref-stark_modelling_1986}
+Stark, G. and King, J. (1986) \emph{Modelling the {UK} {Capital} {Gains}
+{Tax}}. Institute for Fiscal Studies.
+
+\bibitem[\citeproctext]{ref-woodruff_policyengine_2024}
+Woodruff, N. and Ghenis, M. (2024) {`{PolicyEngine} {UK}'}. Available
+at: \url{https://policyengine.org/uk/} (Accessed: 29 May 2024).
+
+\end{CSLReferences}
 
 
 
