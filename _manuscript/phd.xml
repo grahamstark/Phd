@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
+and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+        <journal-title>Journal of Psychoceramics</journal-title>
+      </journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.5555/12345678</article-id>
+      <title-group>
+        <article-title>Graham Stark PHd</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">0000-0002-4740-8711</contrib-id>
+          <name>
+            <surname>Stark</surname>
+            <given-names>Graham</given-names>
+          </name>
+          <string-name>Graham Stark</string-name>
+          <email>graham.stark@northumbria.ac.uk</email>
+          <xref ref-type="aff" rid="aff-1">a</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff-1">
+        <institution-wrap>
+          <institution>Northumbria University</institution>
+        </institution-wrap>
+        <city>Newcastle</city>
+        <ext-link ext-link-type="uri" xlink:href="northumbria.ac.uk">northumbria.ac.uk</ext-link>
+      </aff>
+      <volume>1</volume>
+      <issue>1</issue>
+      <history/>
+      <permissions>
+        <copyright-year>2024</copyright-year>
+        <copyright-holder>Graham Stark</copyright-holder>
+        <license license-type="creative-commons">
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+        </license>
+      </permissions>
+      <abstract>
+        <p>this is the abstract.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <kwd>Economics</kwd>
+        <kwd>thing</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>The author received no specific funding for this
+work.</funding-statement>
+      </funding-group>
+    </article-meta>
+  </front>
+  <body>
+    <p>Understanding the distributive impacts of tax-benefit policy:
+development of microsimulation techniques to provide new insights into
+reform</p>
+    <p>PhD by Published Works, Graham Stark</p>
+    <p>Abstract</p>
+    <p>Introduction</p>
+    <p>My PhD thesis builds on decades of academic research conducted as
+Senior Research Officer at the Institute for Fiscal Studies (IFS), the
+Open University and as Director of Virtual Worlds. I present three
+publications developed in my role as Senior Research Policy at
+Northumbria which emerges from this work. I am a leading specialist in
+microsimulation modelling of tax-benefit systems, programming software,
+databases and interfaces. Most significantly, I am the creator of TAXBEN
+(Johnson, Webb &amp; Stark 1990), the IFS’ tax and benefit
+microsimulation model (Giles &amp; McCrae 1995), which continues to be
+used to analyse Government tax-benefit reform.</p>
+    <p>Having started my career in Economics at Lancaster University, I
+spent 18 years as Senior Research Officer at the IFS, before starting my
+own consultancy, Virtual Worlds. During my time at the IFS, I produced a
+body peer-reviewed journal articles (listed) and reports that achieved
+impact with policy makers and Government departments, such as the
+DSS/DWP and provided rapid response assessment of Budgets for media
+outlets. In this role, I published highly impactful research with
+colleagues such as Paul Johnson, Director of the IFS, Andrew Dilnot,
+Warden of Nuffield College, Oxford, and former Director of the Institute
+for Fiscal Studies (1991-2002), Principal of St Hugh’s College, Oxford
+(2002-12), and Chair of the UK Statistics Authority (2012-17) and Evan
+Davis (e.g. Davis et al. 1992).</p>
+    <p>After founding Virtual Worlds, an economic microsimulation
+consultation, I expanded my body of work to examine such issues as tax,
+social care and legal aid reform at UK and devolved national (England,
+Scotland, Wales and Northern Ireland) level. I have also provided a
+range of analyses on tax-benefit reform in other countries, including in
+the US and low-middle income societies in Africa and Europe.
+Importantly, I have created a series of online tools that enable users
+to analyse microsimulation data in accessible form.</p>
+    <p>Since 2022, I have been Senior Research Associate in Public Policy at
+Northumbria University, providing economic and microsimulation insight
+that has fed into a series of peer-reviewed publications, including two
+that are in press. In this role, I have developed the TriplePC (Public
+Policy Preference Calculator, https://triplepc.northumbria.ac.uk/), a
+unique online microsimulation tool that enables projection of the
+health, health economic, economic and public opinion impacts of
+customisable welfare policies, which is described in a forthcoming
+article in the International Journal of Microsimulation (Stark et
+al. 2024).</p>
+    <p>This thesis summary examines the underpinning research from three
+recent publications that assess the impact post-Financial Crisis era
+interventions and potential interventions. The first report (Reed &amp;
+Stark 2018) forecasts the impact of the Scottish Government’s Child
+Poverty Plan. The second (Reed &amp; Stark 2020) assess the impact of
+policy for care leavers in England. The final report, which summarises
+the research conducted for Stark et al. (2024), describes development of
+the TriplePC as part of a broader NIHR-funded tranche of research on the
+impact of basic income on poverty, inequality and health.</p>
+    <p>Chapter 1: Microsimulation modelling</p>
+    <p>Microsimulation Modelling</p>
+    <p>(Johnson and Stark 19, King and Stark 19xx, Coulter, Heady and Stark
+199x, King and Stark 1985, Duncan and Stark 20xx)</p>
+    <p>Microsimulation is the study of social phenomena using computer
+simulations on individual-level data, such as people and companies.</p>
+    <p>The canonical microsimulation is the Tax Benefit Model, which models
+the effects of the fiscal system on individuals and households. As such,
+I developed TAXBEN2, the complete model rewrite. An updated version of
+that that model remains in use today. 25 years on it still has many
+technical advantages over competitor models such as Euromod. The
+Institute for Fiscal Studies had a such a model before I joined, but it
+was unsatisfactory in many ways. The application of TAXBEN2 included
+analysis of the UK Capital Gains Tax (King and Stark), and calculation
+of the often highly non-linear relationships between what people earn
+and what they get to keep (Duncan &amp; Stark 2000). Subsequently, we
+built similar models for former Soviet Block countries using similar
+methods. Coulter, Stark and Smith (1995) describes one such model for
+the former Czechoslovakia. King and Stark (?)</p>
+    <p>Applications of Microsimulation</p>
+    <p>(Stark 198x, Dilnot and Stark 19xx 19xx, Johnson and Stark 19xx,
+19xx)</p>
+    <p>The most impactful aspect of microsimulation analysis lies in
+forecasting important possible policy changes. Stark (1986) analyses the
+move from taxing husbands and wives jointly to the individual taxation
+we have today. One consequence of that change was that families with two
+earners could now receive more tax allowances than families with a
+single earners, and this paper is one of several I wrote exploring
+proposed ‘transferrable allowances’ that would address this. As with all
+the papers I produced during this period, it is possible that some of
+this analysis seems commonplace now. However, the ability to describe
+the impact of such changes on the incomes of different types of family,
+incentives to work, and tax revenues was very new at the time and
+attracted widespread interest among the media, policy makers, and
+academics.</p>
+    <p>For example, Dilnot and Stark (1986a; 1986b) are analyses of the now
+widely-recognised poverty trap. As a family’s income rose from a low
+level, the withdrawal of means-tested benefits along with increases in
+taxes could leave them no better off, or even worse off. These papers
+were the first to show that the numbers of families affected by very
+high withdrawal rates were at the time likely quite small. Taper rates
+in Universal Credit and the general increase in the number of people on
+low incomes means that that number is much higher, emphasising that the
+relevance of the work some 38 years on.</p>
+    <p>Likewise, Johnson and Stark (1991) was the first study of the
+distributional effects of a UK minimum wage. It showed that the likely
+gains were mostly amongst second earners, meaning that the gains were
+predominantly to the middle of the income distribution. This result was
+not appreciated at the time, but has largely been overtaken by social
+changes. Johnson and Stark (199) was my attempt at a ‘How to Lie with
+statistics’ paper specifically about tax policy, and written as a
+reaction to media coverage of the tax policies proposed in the 1992
+general election. Stark and Johnson (1989) summarised the entirety of
+the tax and benefit policy of the Thatcher Government in a concise but
+consistent way, showing how overall changes were highly regressive. This
+work, overall, has highlighted the extent to which the 1979-1997
+Governments produced significant increases in inequality and presented
+analysis of means of achieving progressive reform.</p>
+    <p>Benefit Takeup</p>
+    <p>(Fry and Stark 198x, 1994; Buck and Stark 20xx, 20yy))</p>
+    <p>The UK’s benefit system is largely means-tested. Entitlement to
+Universal Credit, Working Tax Credit and the like depend on family
+income, with benefits being withdrawn as income rise. Along with the
+Poverty Trap discussed above, the key problem with means testing is that
+these benefits may not be claimed, largely because of stigma or because
+of the complexity of claiming them. Ours were the first studies to use
+microsimulation techniques to study non-take up (e.g. Fry &amp; Stark
+1987; 1992; 1993). A key result is that takeup is higher for large
+entitlements, which provides support for the ‘disutility’ model of
+take-up. Studies using our microsimulation methods have since become a
+mini-industry (Moffat xx, (some survey)).</p>
+    <p>Highlighting complexity and stigma as likely important factors in
+limiting the effectiveness of means-tested benefits has clear relevance
+to my later work on less conditional welfare reforms, such as basic
+income, but my initial response was to examine more focused policies
+such as Legal Aid Means-Testing. I used microsimulation to answer the
+question: ‘what is the simplest set of rules that could achieve some set
+of objectives - the numbers and types of families eligible, overall
+expenditure and administrative costs and so on?’ The work had
+significant impact, directly contributing to reforms to Legal Aid means
+tests, though the positive impact was largely cancelled out by
+subsequent large cuts to the legal aid budget. Subsequently, there was
+interest in the simplification question in Government, including an
+‘Office for Tax Simplification’. However, this often combined
+simplification with sweeping distributional changes that produced more
+complex implementation issues.</p>
+    <p>Budget Analysis</p>
+    <p>One of the key founding missions of IFS was to provide timely,
+detailed analysis of actual and proposed budget changes. My work with
+Paul Johnson, Andrew Dilnot, Evan Davis and others illustrate the
+contribution of microsimulation to this (Johnson &amp; Stark 1991; Davis
+et al. 1992; Johnson, Webb &amp; Stark 1987 Dilnot, et al. 1987). These,
+too, may seem commonplace now, although analysis of budgets is mostly
+focussed on public finances in the aggregate. However, at the time,
+rapid, detailed analysis of the distributional and incentive effects of
+budgets was new and had a huge impact in the wider discourse.</p>
+    <p>My more recent work in this area includes papers for the Office of
+the Scottish Charities Register (OSCR), which were concerned with
+granting charitable status to institutions, such as private schools or
+golf clubs, that few people could afford (Reed &amp; Stark 2009). I
+first examined the literature on affordability as applied to, for
+example, affordable housing, fines levied by the courts and fuel
+poverty. I then described a microsimulation model that shows the
+proportions of households who might be able to afford the proposed fees
+of some applicant for charitable status. Again, I believe this was the
+first model of its kind.</p>
+    <p>Chapter 2: Austerity era interventions</p>
+    <p>Chapter 3: Microsimulation of policies for which there is no
+precedent: basic income</p>
+    <p>Prospective welfare policies have often been assessed on their
+financial impacts, for example, their effects on net household incomes
+and marginal and average tax rates. However, welfare policies can also
+have a substantial effect on population health and wellbeing. In
+addition, politicians must consider the electoral implications of
+policies that would affect large sections of the population. In my third
+report, Treating Causes not Symptoms (Johnson et al. 2023), I describe
+the Public Policy Preference Calculator (TriplePC), a new
+microsimulation model that seeks to extend the microsimulation in two
+ways.</p>
+    <p>First, as well as modelling the outcomes of a policy in the
+conventional way, our model uses Conjoint Analysis of public
+acceptability data to give an indication of the policy’s popularity.
+This is novel and important. There are measures that might actually be
+popular with , but which policymakers have been unwilling to touch
+because of uncertainty about their electoral consequences. Perhaps the
+best example from UK history is the SDP/Liberal Democrat’s ‘Dead Parrot’
+merger manifesto of January 1988 (Gourley, n.d.; Crewe &amp; King,
+1995), which proposed the abolition of Child Benefit and the imposition
+of a uniform rate of Value Added Tax (VAT) to raise money for an
+anti-poverty program. Although this had been modelled in detail, fear of
+the electoral consequences among Members of Parliament meant the
+manifesto was abandoned within a day. The resulting confusion and
+indecision arguably caused long-lasting damage to centrist politics in
+the UK (Crewe &amp; King, 1995). The UK’s zero-rating for food and
+children’s clothing remains politically untouchable to this day despite
+the orthodox economic arguments in favour of a uniform rate (Crawford et
+al., 2010). But would VAT extension really be unpopular, especially if
+it was part of a package that used the money raised for poverty
+reduction or other appealing policies? Our approach allows us to address
+questions like this.</p>
+    <p>Second, I integrated health outcomes into the model. There is strong
+evidence that welfare policies can have a substantial effect on
+population health (Johnson et al., 2022). A stark reminder of the real
+impact of worsening population health can be seen in the proportion of
+the UK population with a long-standing illness, disability or impairment
+which causes substantial difficulty with day-to-day activities. This is
+estimated to have risen from 19% in 2011/12 to 24% in 2021/22, an
+increase of 3.9 million people (Department for Work and Pensions, 2023).
+Indeed, the estimate increased from 14.1 million in 2019/20 to 16.0
+million in 2021/22 (Department for Work and Pensions, 2023).
+Interestingly, the proportion among state pension age adults has
+remained the same between 2011/12 and 2021/22 at 45%, whereas for
+working-age adults it has increased from 16% to 23% and for children the
+figures are 6% to 11%. This suggests that increases in prevalence are
+not simply the effect of an ageing population (Department for Work and
+Pensions, 2023).</p>
+    <p>In that context, it is essential that policymakers invest real
+thought in realising the Government’s prevention agenda (Department of
+Health and Social Care, 2018), which was incorporated into the 2019 NHS
+England Long Term Plan (NHS England, 2019). Forty-three years on from
+the Black Report which highlighted the role of material circumstances on
+health inequalities (Working Group on Inequalities in Health, 1980), 13
+since the Marmot Review (Marmot et al., 2010) and three since its
+10-years-on update (Marmot et al., 2020) which highlighted worsening
+trends in inequalities, there is good reason to examine and tackle
+social determinants of health.</p>
+    <p>Some of the authors of this article (Johnson et al., 2022) have
+called for trials of cash transfers, in particular Basic Income, as an
+upstream intervention to mitigate poverty, inequality and insecurity as
+social determinants of mental and physical ill-health. Systematic
+reviews of cash transfer schemes that resemble Basic Income, such as
+Gibson et al. (2020), have indicated positive impacts on mental and
+physical health, hospital attendance and health related behaviour, such
+as alcohol and drug use. In contrast, conditional, means- and
+needs-based welfare systems in high-income countries are associated with
+below average health outcomes (Shahidi et al., 2019) and increased
+psychological distress prevalence (Wickham et al., 2020). We have
+suggested several explanations (Johnson et al., 2022): schemes are
+‘insufficient to offset the negative health consequences of severe
+socioeconomic disadvantage’ (Shahidi et al., 2019); conditionality and
+assessment inflicts stress (Dwyer et al., 2020) and creates perverse
+incentives for health-diminishing behaviour (Johnson et al., 2022); and
+focusing on the poorest fails to mitigate broader determinants that
+affect society as a whole (Marmot et al., 2010).</p>
+    <p>There are existing health simulations for the UK. Public Health
+Scotland’s Informing Interventions to reduce health Inequalities (Triple
+I) tools focus on comparing the effects and costs of a range of
+tax-benefit (including a Basic Income) changes as well as non-economic
+programmes such as a lifestyle weight management service,
+20-mile-per-hour speed limits or Alcohol Brief Interventions. Effects
+and costs modelled are based on premature deaths, years of life lost and
+hospital stays, with changes population health and inequalities as the
+key measures. It does not model the economic impacts on household types
+nor public preferences.</p>
+    <p>Most other health microsimulations tend to model the economic effects
+of health, rather than the other way round (Schofield et al., 2017).
+There are some that model the effects of, potentially economic,
+interventions on health, particularly with regard to extrapolating from
+childhood and adolescence, for example, the University of York’s LifeSim
+(Skarda et al., 2021).</p>
+    <p>I therefore decided to create microsimulation with a public-facing
+user interface – the Public Policy Preference Calculator (TriplePC) –
+that would enable automated assessment of economic and health impacts as
+well as public preferences between different welfare and tax policies.
+The TriplePC model project therefore had three strands:</p>
+    <preformat>Estimating the likely electoral popularity of possible policies 
+
+Deriving relationships between income and health, in a form suitable for use in a microsimulation 
+
+The integration of strands 1 and 2 into a microsimulation tax-benefit model </preformat>
+    <p>We discuss these in turn.</p>
+    <p>Public preferences: Conjoint analysis</p>
+    <p>Conjoint analysis (Hainmueller et al., 2013) is a survey-based
+technique originally developed as a market research tool, to examine how
+consumers value characteristics (sweetness, colour, alcohol content,
+etc.) of goods. Recently, the technique has become popular as a method
+for discovering the public’s relative valuations of competing economic
+or social policies (Bremer &amp; Bürgisser, 2023). Research comparing
+conjoint survey experiments to actual votes has shown that the conjoint
+results are good predictors of voting outcomes (Bansak et al.,
+2023).</p>
+    <p>Our study is described in full in (Nettle et al., 2023), with the
+data available as (Johnson et al., 2023). The authors of that study
+recruited 800 UK resident adults through the Prolific online platform.
+Participants were asked repeatedly to choose their preferred welfare
+policy from sets of two. Each time, the two policies contained the same
+input (design) and outcome (health and distributional) attributes but
+with randomised levels in each (e.g. payment sizes of £63 per child,
+£145 per adult and £190 per pensioner; poverty decreased by 25% etc.).
+Each participant completed 15 choice tasks. Each option within each task
+was defined by 10 attributes. Each attribute had three to nine possible
+levels. Table 1 shows the full list of 10 attributes with between three
+and nine levels each.</p>
+    <p>Relative to the UK population, the sample contained an
+over-representation of people who</p>
+    <p>voted for the left to centre-left Labour party at the 2019 general
+election (44.3% of those in</p>
+    <p>our sample who voted, vs. 32.1% election result); and an
+under-representation of those</p>
+    <p>who voted for the right to centre-right Conservative party (31.8%
+versus 43.6% election</p>
+    <p>result). Although we did create survey weights to correct for this,
+TriplePC currently uses unweighted data.</p>
+    <p>All options were fully randomly generated from the possible
+combinations. Instructions in the survey explained that participants
+might prefer some features in one policy and some in the other, but they
+needed to consider which policy they preferred overall. The attributes
+on which the policies varied were explained in greater depth prior to
+the first choice task, and then described just with brief phrases during
+the choice tasks themselves. Note that many of these randomly generated
+pairs are totally implausible. This is integral to how a fully
+randomized conjoint analysis works: by generating all the possible
+combinations, things that are actually correlated in real life (e.g. tax
+rates and poverty rates) are rendered orthogonal to one another. It is
+this that allows identification of their independent marginal
+effects.</p>
+    <p>We simultaneously estimated the average impact of preference or
+dis-preference for particular feature attribute-value on preference for
+policies overall using comparable scales through computation of Average
+Marginal Component Effects (AMCEs) (Hainmueller et al., 2013) from
+linear probability models. The AMCE for a given level of an attribute
+can be interpreted as the marginal effect on the probability of choice
+of the attribute being at that level compared to the reference level,
+averaging across the possible levels of all other attributes. Through
+randomization and a high number of pairwise comparisons, this allows us
+to quantify the causal effect of including specific levels of individual
+reform elements on the support for the entire reform package, compared
+with the support for a reform package that contains the baseline level
+(status quo) of this particular reform element (Nettle et al., 2023a).
+That study found:</p>
+    <preformat>preference for more generous payments than less generous ones. 
+
+strong preference for decreases in poverty (compared to the status quo). 
+
+preferences on tax rates depended on the broad effects of the policy package. Increasing personal income tax rates were popular if the package they were part of also decreased poverty, and unpopular otherwise. 
+
+preference for a wealth tax, carbon taxes, and increased corporation tax, as opposed to increased government borrowing. 
+
+significant positive effect of a large reduction in inequality, and a significant negative effect of a large increase in inequality. However, the effects for inequality were weaker than for poverty. 
+
+other health and wellbeing consequences also had some significant marginal effects above and beyond those of poverty and inequality. An increase in life expectancy of five years was significantly preferred to the status quo, and a decrease in life expectancy of five years significantly dis-preferred. 
+
+dis-preference for increased rates of anxiety and depression relative to the status quo, and there was a slight preference for policies that decreased them sharply. 
+
+no strong preference for or against means-testing or other restrictions on eligibility. 
+
+Mild differences between left- and right- supporting participants, in the expected directions. 
+
+no significant variation by gender or between rich and poor. 
+
+older people were significantly less keen on high income tax schemes and, curiously, less concerned with heath consequences. </preformat>
+    <p>For the TriplePC, we extract the AMCEs for each component of any
+welfare policy the user wishes to specify through the interface from the
+data of Nettle et al. (2023a, b). In the conjoint methodology, these are
+assumed to have an additive effect on popularity. That is, for example,
+the popularity of a policy combining high income taxes, carbon tax, and
+a decrease in poverty will be the sum of the negative marginal effect on
+popularity of the high income tax, the positive marginal effect on
+popularity of the carbon tax, the positive marginal effect of the
+poverty reduction, and so on. This summation is the popularity outcome
+returned by the model.</p>
+    <p>The conjoint analysis was conducted ahead of the construction of the
+microsimulation model. As we discuss below, some of the measures in
+Table 1 (income tax, payment sizes, poverty and inequality rates) are
+reasonably straightforward to model (though there are issues around
+definitions). Others, such as the ‘other funding’ options and the
+relationship between income and health, are harder.</p>
+    <p>Modelling health outcomes</p>
+    <p>We model two health measures: mental health and life expectancy. We
+build a model relating SF-12 scores (Ware, 2002) to income and
+demographic characteristics. SF-12 is a widely used measure of an
+individual’s health-related quality of life, with two summary scores:
+the Physical Component Summary (PCS-12) and the Mental Component Summary
+(MCS-12). The model is estimated over 12 waves (2009/11-2020/22) of
+Understanding Society: The UK Household Longitudinal Study (UKHLS)
+(Institute for Social and Economic Research, 2023) panel data (Reed et
+al., 2024).1 Another companion article (Reed et al., 2023a) discusses
+this modelling in detail.</p>
+    <p>Health modelling strategy</p>
+    <p>Our health model is estimated using the ‘between’ individual
+coefficient from a fixed effects ‘within-between’ model, which combines
+the effect on physical and mental health of both an individual’s income
+in one wave vs their average across waves, and their average across
+waves compared with the sample average.</p>
+    <p>The model is a reformulation of the standard Mundlak model and has a
+significant advantage in being able to retain the flexibility of random
+effects models while reducing concerns about bias that fixed effects
+models address (Bell et al., 2019; Bell &amp; Jones, 2015). The
+within-between model, conceptually, captures several key income-based
+drivers of health, including:</p>
+    <preformat>temporary income shocks (within component), which see individuals’ income increase or decrease in one wave compared to their average. 
+
+permanent income shocks (between component), which see an individual’s average income either be closer to or further away from the population average. 
+
+objective inequality (between component), which see differences between individuals’ average income, which is calculated over a longer, enduring, period. 
+
+subjective social status inequality (between component), which is the psychological phenomenon driven, in part, by income inequality. </preformat>
+    <p>It does not, however, capture what we anticipate through our model of
+impact (Johnson et al., 2022) to be very substantial benefits from
+systems such as Basic Income of increased security of income and
+protection from destitution for a very large proportion of the
+population in even relatively highly paid jobs. We use the
+between-individual coefficient in our modelling because changes to the
+welfare system are more likely to reflect permanent income shocks. The
+SF-12 regression are available in a working paper (Reed et al.,
+2024).</p>
+    <p>We create a binary variable for cases of depressive disorder which
+takes the value of 1 if the individual’s imputed MCS-12 score is ≤45.6
+and 0 otherwise (Vilagut et al., 2013). We impute life expectancy from
+SF-12 in three steps:</p>
+    <preformat>Convert SF-12 scores to SF-6D (Brazier et al., 2002), using software from QualityMetric (QualityMetric, 2022). SF-6D is a preference-based measure of health. 
+
+Use SF-6D score to calculate quality-adjusted life years (QALYs). QALYs are a widely recognized standardised measure of health outcomes commonly used in health economics (Drummond et al., 2015; Kaplan &amp; Hays, 2022). 
+
+Calculate life expectancy from QALYs using multipliers conditional on gender and age. The multipliers are derived from McNamara et al. (2023). </preformat>
+    <p>I made a series of assumptions regarding the responsiveness of change
+to income. These estimates are then integrated directly into the
+microsimulation model. In figure 1) below, the SF-12 Mental Health
+outputs are shown in the bottom left row. As modelled, mental health
+appears rather unresponsive to changes in income. For example, choosing
+the most generous benefit increases from the options from the Conjoint
+Analysis – a package costing £430bn – would reduce the number of adults
+with critically low SF-12 scores (below 45.6) by about 3%.</p>
+    <p>Microsimulation: The TriplePC model</p>
+    <p>In conjoint surveys, respondents have preferences over inputs (income
+tax rates, payment sizes, etc.) and outcomes (poverty and inequality
+levels, numbers of mental health cases, etc.). We use microsimulation to
+bridge between them</p>
+    <p>The analysis uses a heavily adapted version of Scotben (Stark 2023a),
+an open-source microsimulation model of Scotland written in the Julia
+programming language. Scotben is a conventionally structured static
+tax-benefit model, in the family of models branching out from the
+Institute for Fiscal Studies’ TAXBEN (Johnson et al., 1990) of which two
+of this article’s authors (Reed and Stark) were developers. For this
+project, we extended the scope of the model to Great Britain2 using a
+single 2021/22 wave of Family Resources Survey (FRS) data (Department
+for Work and Pensions, 2019). The model covers the whole of the UK
+personal tax and benefit system, including local taxes, with some minor
+exceptions such as Scottish Best Starts grants. As a base, we use the
+tax and benefit system as of Q3 2023, and all incomes, wealth and
+consumption are also uprated to 2023 Q3. We use the 2021/22 FRS sample
+weights as-is.</p>
+    <p>The outcome questions are phrased as changes (e.g. ‘50% fewer cases
+of anxiety and depression’, ‘Poverty increased by 50%’). A particularly
+tricky question arising from this is how to establish a baseline for
+comparison. The conjoint experiment survey had no ‘keep things as they
+are’ option for the tax and benefit inputs, so there were two options
+for the TriplePC:</p>
+    <preformat>Using a tax-benefit system some way from the current one as baseline and assuming that the outcome changes represent changes in poverty, health, etc. from that point, rather than changes from the actual current situation. 
+
+Using the current system as the baseline, but then the default output will have significant deviations for the outcome variables. </preformat>
+    <p>Neither of these choices is good but on balance we decided 1) was the
+least bad. I It makes the conjoint popularity output much easier to
+understand: with option 2) we would be applying large changes in poverty
+and inequality to the base conjoint results which would make those
+results very unintuitive. The result, however, is that the model starts
+some distance from the actual existing system. This is certainly a
+lesson for future work.</p>
+    <p>Income tax rates</p>
+    <p>The conjoint experimental survey had six income tax rate options with
+a basic, higher and additional rate in each (see Table 1). The first of
+these options is the current non-Scottish UK income tax rates, which we
+take as the base.3 All other options represent rate increases. We assume
+the corresponding thresholds are as present. Since we have to remain
+consistent with the conjoint analysis, only the six rate groups in Table
+1 are presented to the user, though the model can handle any combination
+of rates and thresholds. We assume no behavioural responses to changing
+tax rates and make no corrections for under-reporting of incomes beyond
+that embodied in the FRS sample weights.</p>
+    <p>Benefits</p>
+    <p>The payment size question in the conjoint survey was about a
+hypothetical system of payments that most closely reflects the
+simplicity of Basic Income (Reed et al., 2023b). There were also
+questions about eligibility, means-testing and citizenship (see Table 1,
+above). It is not clear how this proposed system of cash transfers
+should interact with the existing tax and benefit system, especially
+bearing in mind that the question is not how an expert believes they
+should interact, but what was most likely in the mind of the conjoint
+respondents. We follow our recent analysis (Reed et al., 2023b) and
+assume:</p>
+    <preformat>means-tested benefits are retained.4 
+
+most other benefits, including the State Pension and Child Benefit, are abolished and replaced by the cash transfers. 
+
+Needs-based benefits such as those based on sickness or disability, like Personal Independence Payment (PIP), are retained. </preformat>
+    <p>The least generous set of options (Child - £0; Adult - £63; Pensioner
+- £190) are taken as the base values. Compared to the actual system,
+this means that we’re starting from a social security system that’s
+considerably more expensive (because of the adult payments), but where
+pensioners are usually slightly worse off (£190 vs £203.85 for the new
+State Pension) and families with large numbers of children not on
+means-tested benefits are worse off, since the cash transfer to children
+is zero in the default case and the payments to adults are not always
+enough to compensate. We do not adjust taxes to meet these extra base
+costs. For eligibility, means-testing and citizenship options, it seemed
+plausible that at least some of the respondents might be aware of the
+means and eligibility tests from existing benefits. Consequently, we
+model the eligibility rules that apply to the ‘legacy’ UK benefits:
+Working Tax Credit and Income Support/Employment Support that are in the
+process of being phased out, and the means-tests are taken from the new
+Universal Credit (Child Poverty Action Group, 2022).</p>
+    <p>Modelling other funding options</p>
+    <p>Table 1 includes a number of ‘other funding’ options that are worth
+discussing briefly.</p>
+    <p>There is ambiguity in some of these options. A wealth tax or carbon
+levy could be implemented in many ways, for instance; we make what we
+hope are reasonable assumptions for these cases, but for the
+microsimulation to be fully consistent with the conjoint survey we would
+have to know what was in the mind of the respondents. This section
+discusses how we tackled modelling three of these options.</p>
+    <p>‘Increase in VAT’ (Value Added Tax)</p>
+    <p>Our Family Resources Survey (FRS) dataset has no expenditure data.
+The main UK source of household expenditure data is the Living Costs and
+Food Survey (LCF) (Office for National Statistics, 2019a). To model the
+complex set of VAT exemptions and zero-rated goods5, we therefore have
+three choices:</p>
+    <preformat>Switching the primary dataset to be the LCF. LCF6 was the primary dataset of all UK Tax Benefit Models until it was supplanted by the FRS. LCF remains the source used in the Treasury’s IGOTM model (Brice, 2015). But to model other options such as wealth taxes, we would need still other datasets. Switching between multiple different datasets, and hence slightly different base outcomes, depending on which options were being modelled could be confusing. 
+
+Imputing expenditure data onto the FRS via a demand system. This seems appealing as the model would be consistent with economic theory, expenditure could vary with tax rates, and, in principle, we could use the demand system to calculate changes in economic welfare rather than just estimate cash changes. But it is infeasible to build a demand system with fine enough detail to adequately model the complex set of exemptions and zero-rated goods.  
+
+Assigning LCF records to our primary FRS dataset using data matching, which is the option we chose. Since it is important to capture the relationship between income and expenditure, we performed the matching in two steps. We selected a candidate group of LCF donors in the conventional way (matching on age, sex, tenure, etc.) and then ranked among those candidates by income (Stark, 2023). </preformat>
+    <p>In aggregate, our current VAT modelling under-predicts revenues by
+about 50%: we model £102bn for VAT revenues as against actual revenues
+for 2022/3 of £160bn (HMRC 2023). There are well-known problems with
+under-reporting LCF expenditure data such as of alcohol and tobacco
+spending (Reed 2012) which will account for much of this. For this
+exercise, we provide a crude fix by grossing up all the expenditure
+records by 1.5. Undoubtedly this is an area we can improve on.</p>
+    <p>‘Tax on wealth’</p>
+    <p>Modelling wealth is tricky for three reasons:</p>
+    <preformat>Our primary FRS dataset has limited information on wealth, mainly intended to help model benefit eligibility tests. 
+
+The form this wealth tax should take is not specified. 
+
+Wealth taxes are held to be particularly easy to evade or avoid (Scheuer &amp; Slemrod, 2021). </preformat>
+    <p>To solve 1., we impute data from the Wealth and Assets Survey (WAS)
+(Office for National Statistics, 2019b) onto the FRS households. We
+chose to do this using a simple linear regression of three categories of
+wealth (pensions, housing, and financial and other assets) against
+household characteristics that are common to FRS and WAS. In retrospect,
+regression-based imputation was likely a mistake and matching will be
+used in future versions.</p>
+    <p>For the form of the tax, we were guided by the Wealth Tax Commission
+(Advani et al., 2020). We followed their recommendations of excluding
+pension wealth, having an allowance of £500,000, and having the tax
+payable over five years, though we deviated from the Commission in
+applying the tax to aggregate household wealth rather than individual
+wealth (Chamberlain, 2020).</p>
+    <p>Even when payable over five years, as recommended by the Wealth Tax
+Commission, the payments from wealth taxes needed to fund some of the
+more generous benefit schemes can exceed net income for many families,
+especially elderly families who have high housing wealth. Most likely
+the scheme would need to be augmented by an income-related rebate
+scheme, or some scheme to defer until death.</p>
+    <p>‘Corporation tax increases’</p>
+    <p>Building a plausible micro-data based model of Corporation Tax is
+difficult and not something that could be contemplated for this project.
+In any case, for a household-based microsimulation model, what matters
+is the incidence of the tax on the households. This could be on profits,
+or passed on in price increases or real wage reductions (Harberger,
+1962; Atkinson &amp; Stiglitz, 2015). If we make a simple ‘small
+country’ assumption – that the rate of return on capital and the price
+of tradeable goods are set exogenously on world markets – then
+Corporation Tax is ultimately incident on (private sector) wages and
+self-employment income. Therefore, we calculate the tax increase needed
+to meet the costs of the benefit increase and reduce the wage bill by
+that amount. Note that as the wage bill falls, direct tax revenues also
+fall, but in a non-linear way because of the tax allowance and
+progressive tax rate structures, so finding the correct Corporation Tax
+increase requires the use of our root-finder. In practice the rates
+needed for the more generous benefit increases can be implausibly large,
+exceeding in some cases total UK Corporation’s Gross Profits.</p>
+    <p>Model flow</p>
+    <p>Putting all this together, a model run has five main stages:</p>
+    <preformat>The user selects from the Payment size, Income tax, Other funding, Conditionality, Means testing, Universality options from Table 1. 
+
+The model then calculates net incomes for each person in the FRS households given these choices. 
+
+These net incomes are in turn plugged in to the equations discussed in Section 2 to give us estimates of changes to the prevalence of depressive disorders and mortality. 
+
+The model next calculates gainers and losers, revenues and costs, and changes in poverty and inequality. 
+
+Finally, the model calculates conjoint public preferences based on 1 to 4 above and displays the results. </preformat>
+    <p>The model has a simple single page web interface, publicly available
+at https://triplepc.northumbria.ac.uk/. Figure 1, below, shows this in
+action. The user has selected a relatively generous benefit increase
+(top left panel), partially paid for by income tax increases (top
+centre). The bottom half of the screen shows the results, relative to
+the base discussed in section 3 above. Health results are in the bottom
+row, showing small mental health improvements. The net cost of this
+scheme is £118bn (right middle panel). Poverty and inequality are both
+reduced (centre left panel). The Conjoint analysis is in the centre: the
+scheme is more popular by 4.7 points than the baseline due to the
+popularity of the poverty and inequality reductions and the benefit
+increases, though this is partly offset by unpopular tax increases.</p>
+    <p>A screenshot of a computer screen</p>
+    <p>Description automatically generated</p>
+    <p>Figure 1: TriplePC interface example scenario</p>
+    <p>Reflections on the approach</p>
+    <p>One important lesson for similar future work is the need for good
+coordination between conjoint analysis and microsimulation modelling at
+the outset of the project.</p>
+    <p>In our case, the conjoint analysis was conducted ahead of
+microsimulation modelling work. Consequently, microsimulation
+requirements were largely fixed by the questions in the conjoint survey.
+This has several consequences:</p>
+    <preformat>The model could present only a very limited set of options for taxes and benefits compared to the model’s underlying capabilities. The survey system used for the survey – Qualtrics – had a hard limit on the number of attributes that could be included, which meant that it was not possible to ask about basic and higher tax rates individually. It might also have increased respondent load to an unacceptable level and therefore reduced the quality of the preference data. 
+
+The meaning of options such as ‘Tax on wealth’ should, where possible, be made clearer in order to provide a clear direction for modelling. 
+
+Co-development of a conjoint survey and microsimulation might have enabled respondents to see accurate consequences of their preferred policies for incomes and health.  
+
+Some of the options in the survey, such as VAT increases, were quite burdensome to model in the time available.  
+
+Careful thought must be given to the definition of the base case the model is comparing against. </preformat>
+    <p>There are also interesting questions about how best to present
+results of a model with such diverse outputs. For instance, since one is
+a stock and the other a flow, can we count payments by a household from
+a wealth tax in the same way as payments for income tax? And should we
+be imputing a monetary value to any health improvements?</p>
+    <p>I have presented the TriplePC, a new microsimulation model with novel
+but important features. We have established the importance and
+practicality of using conjoint data to provide instant analysis of the
+political implications of welfare packages, but also learned some
+important lessons on how best to conduct integrated microsimulation and
+conjoint analysis. We have also estimated new measures of the
+relationship between income and health and shown how these, too, can be
+integrated into the model. The TriplePC is available online at
+https://triplepc.northumbria.ac.uk/ and its source code, linked on the
+main site, is released under an open-source licence.</p>
+    <p>Conclusion</p>
+    <p>References</p>
+    <p>Buck, Alexy, and Graham Stark. 2001. Means Assessment: Options for
+Change. LSRC Research Paper No.8. Legal Services Commission.</p>
+    <p>Buck, Alexy, and Graham Stark. 2003. Simplicity versus Fairness in
+Means Testing: The Case of Civil Legal Aid. Fiscal Studies 24 (4):
+427–49. https://doi.org/10.1111/j.1475-5890.2003.tb00090.x.</p>
+    <p>Coulter, Fiona, Graham Stark, and Stephen Smith. 1995.
+‘Micro-Simulation Modelling of Personal Taxation and Social Security
+Benefits in the Czech Republic’. IFS Working Paper Series W95/58.</p>
+    <p>Davis, Evan, Dilnot, Andrew S., Giles, Flanders Christopher, Johnson,
+Paul, Ridge, Michael, Stark, Graham, Webb, Steven, and Whitehouse
+Edward. 1992. Alternative proposals on tax and social security. London:
+IFS.
+https://ifs.org.uk/sites/default/files/output_url_files/comm29.pdf</p>
+    <p>Dilnot, Andrew, and Graham Stark. 1986a. The Poverty Trap, Tax Cuts,
+and the Reform of Social Security. Fiscal Studies 7 (1): 1–10.
+https://doi.org/10.1111/j.1475-5890.1986.tb00410.x.</p>
+    <p>Dilnot, Andrew, and Stark, Graham. 1986b. The Distributional
+Consequences of Mrs Thatcher. Fiscal Studies 7 (2): 48–53.
+https://doi.org/10.1111/j.1475-5890.1986.tb00421.x.</p>
+    <p>Dilnot, Andrew, Graham Stark, and Steven Webb. 1987. ‘The Targeting
+of Benefits: Two Approaches’. Fiscal Studies 8 (1): 83–93.
+https://doi.org/10.1111/j.1475-5890.1987.tb00434.x.</p>
+    <p>Dilnot, Andrew, Graham Stark, Ian Walker, and Steven Webb. 1987. ‘The
+1987 Budget in Perspective’. Fiscal Studies 8 (2): 48–57.
+https://doi.org/10.1111/j.1475-5890.1987.tb00535.x.</p>
+    <p>Duncan, Alan, and Graham Stark. 2000. ‘A Recursive Algorithm to
+Generate Piecewise Linear Budget Contraints’. 2 May 2000.
+https://doi.org/10.1920/wp.ifs.2000.0011.</p>
+    <p>Fry, Vanessa, and Graham Stark. 1987. ‘The Take-Up of Supplementary
+Benefit: Gaps in the “Safety Net”?’ Fiscal Studies 8 (4): 1–14.
+https://doi.org/10.1111/j.1475-5890.1987.tb00302.x.</p>
+    <p>Fry, Vanessa, and Graham Stark. 1992. The Takeup of Means-Tested
+Benefits in the UK: The Transition to Income Support and Family Credit.
+Institute for Fiscal Studies.</p>
+    <p>Fry, Vanessa, and Graham Stark. 1993. ‘The Take-up of Means-Tested
+Benefits, 1984-90’. 1 January 1993.
+https://doi.org/10.1920/re.ifs.1993.0041.</p>
+    <p>Giles, Christopher and McCrae, Julian. 1995. TAXBEN: the IFS
+microsimulation tax and benefit model. Working Paper 1995.
+https://ifs.org.uk/publications/taxben-ifs-microsimulation-tax-and-benefit-model</p>
+    <p>Johnson, Elliott A., Reed, Howard, Nettle, Daniel, Stark, Graham,
+Chrisp, Joe, Howard, Neil, Gregory, Grace, Goodman, Cleopatra, Smith,
+Matt, Coates, Jonathan, Robson, Ian, Parra-Mujica, Fiorella, Pickett,
+Kate E. and Johnson, Matthew T. 2023. Treating Causes Not Symptoms:
+Basic Income as a Public Health Measure, London: Compass,
+<ext-link ext-link-type="uri" xlink:href="https://www.compassonline.org.uk/publications/treating-causes-not-symptoms-basic-income-as-a-public-health-measure">https://www.compassonline.org.uk/publications/treating-causes-not-symptoms-basic-income-as-a-public-health-measure</ext-link></p>
+    <p>Johnson, Elliott A., Reed, Howard, Stark, Graham, Villadsen, Aase,
+Parra-Mujica, Fiorella, Kypridemos, Chris, Cookson, Richard, Nettle,
+Daniel, Pickett, Kate E., Johnson, Matthew T. (2023) ‘The Health Case
+for Basic Income: Case Study’, UK Data Service, London: UKDS,
+<ext-link ext-link-type="uri" xlink:href="https://ukdataservice.ac.uk/case-study/the-health-case-for-basic-income/">https://ukdataservice.ac.uk/case-study/the-health-case-for-basic-income/</ext-link></p>
+    <p>Johnson, Paul, and Graham Stark. 1989. ‘Ten Years of Mrs Thatcher:
+The Distributional Consequences’. Fiscal Studies 10 (2): 29–37.</p>
+    <p>Johnson, Paul, and Graham Stark. 1991. ‘The Effects of a Minimum Wage
+on Family Incomes’. Fiscal Studies 12 (3): 88–93.
+https://doi.org/10.1111/j.1475-5890.1991.tb00164.x.</p>
+    <p>Johnson, Paul, Steven Webb, and Graham Stark. 1990. ‘TAXBEN2: The New
+IFS Tax and Benefit Model’. IFS Working Paper W90/5.
+https://doi.org/10.1111/j.1475-5890.1989.tb00107.x.</p>
+    <p>Reed, H., Johnson, E. A., Stark, G., Nettle, D., Pickett, K. E. &amp;
+Johnson, M. T. (2023) ‘Estimating the effects of Basic Income schemes on
+mental and physical health among 18+ adults in the UK: a microsimulation
+study’, under review PLOS Mental Health.
+https://doi.org/10.17605/OSF.IO/SKPYB</p>
+    <p>Reed, Howard, Nettle, Daniel, Parra-Mujica, Fiorella, Stark, Graham,
+Wilkinson, Richard, Johnson, Matthew T., Johnson, Elliott. A. (2024)
+‘Examining the relationship between income and both mental and physical
+health among adults in the UK: Analysis of 12 waves (2009-2022) of
+Understanding Society’, under review PLOS One. Working paper:
+https://doi.org/10.17605/OSF.IO/SKPYB</p>
+    <p>Reed, Howard, and Graham Stark. 2009. Assessing the Ability to Pay
+for the Fees Charged by Charities: Phase 1 &amp; 2. February, 36.
+Edinburgh: Office of the Scottish Charities Regulator (OSCR).
+http://www.oscr.org.uk/publications-and-guidance/affordability-reportphase-2/.</p>
+    <p>Reed, Howard, and Graham Stark. 2011a. Modelling the Costs for
+Individuals and Public Authorities in Wales of Alternative Funding
+Systems for the Long-Term Care of Adults: Stage 1 Report: Building a
+Forecasting Model for Long-Term Care in Wales. Welsh Assembly
+Government.</p>
+    <p>Reed, Howard, and Graham Stark. 2011b. Modelling the Costs for
+Individuals and Public Authorities in Wales of Alternative Funding
+Systems for the Long-Term Care of Adults. Welsh Assembly Government.</p>
+    <p>Reed, Howard, and Graham Stark. 2013. Costing the “When I Am Ready”
+Scheme. Action for Children Wales/Gweithredu dros Blant.</p>
+    <p>Reed, Howard, and Graham Stark. 2018. Tackling Child Poverty Delivery
+Plan: Forecasting Child Poverty in Scotland. Scottish Government.
+http://www.gov.scot/Publications/2018/03/2911/0.</p>
+    <p>Reed, Howard, and Graham Stark. 2020. Giving Care Leavers the Chance
+to Stay: Staying Put Six Years on: Technical Report. Action for Children
+England. https://doi.org/10.1111/j.1475-5890.1988.tb00319.x.</p>
+    <p>Robinson, Bill, and Graham Stark. 1988. ‘The Tax Treatment of
+Marriage: What Has the Chancellor Really Achieved?’ Fiscal Studies 9
+(2): 48–56.</p>
+    <p>Stark, Graham. 1988. ‘Partially Transferable Allowances’. Fiscal
+Studies 9 (1): 29–40.
+https://doi.org/10.1111/j.1475-5890.1988.tb00310.x.</p>
+    <p>Stark, Graham. 2021. Staying Put Six Years on: 2021 Update. Action
+for Children England.</p>
+    <p>Stark, Graham, Johnson, Elliott A., Reed, Howard, Nettle, Daniel, and
+Johnson, Matthew T. 2024 in press. The Public Policy Preference
+Calculator (TriplePC): Developing a comprehensive welfare policy
+microsimulation. International Journal of Microsimulation. Working
+paper: https://doi.org/10.17605/OSF.IO/SKPYB</p>
+  </body>
+  <back>
+</back>
+</article>
