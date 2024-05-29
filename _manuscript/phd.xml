@@ -210,11 +210,11 @@ work.</funding-statement>
   means of achieving progressive reform.</p>
       <sec id="benefit-takeup">
         <title>Benefit Takeup</title>
-        <p>((<xref alt="FRY and STARK, 1987" rid="ref-fry_take-up_1987" ref-type="bibr">FRY
+        <p>(<xref alt="FRY and STARK, 1987" rid="ref-fry_take-up_1987" ref-type="bibr">FRY
     and STARK, 1987</xref>;
     <xref alt="Fry and Stark, 1993" rid="ref-fry_take-up_1993-1" ref-type="bibr">Fry
     and Stark, 1993</xref>); Buck and Stark
-    (<xref alt="2003" rid="ref-buck_simplicity_2003" ref-type="bibr">2003</xref>))</p>
+    (<xref alt="2003" rid="ref-buck_simplicity_2003" ref-type="bibr">2003</xref>)</p>
         <p>The UK’s benefit system is largely means-tested. Entitlement to
     Universal Credit, Working Tax Credit and the like depend on family
     income, with benefits being withdrawn as income rise. Along with the
@@ -268,15 +268,16 @@ work.</funding-statement>
     the distributional and incentive effects of budgets was new and had
     a huge impact in the wider discourse.</p>
         <p>My more recent work in this area includes papers for the Office
-    of the Scottish Charities Register (OSCR), which were concerned with
-    granting charitable status to institutions, such as private schools
-    or golf clubs, that few people could afford (Reed &amp; Stark 2009).
-    I first examined the literature on affordability as applied to, for
-    example, affordable housing, fines levied by the courts and fuel
-    poverty. I then described a microsimulation model that shows the
-    proportions of households who might be able to afford the proposed
-    fees of some applicant for charitable status. Again, I believe this
-    was the first model of its kind.</p>
+    of the Scottish Charities Register (OSCR) , which were concerned
+    with granting charitable status to institutions, such as private
+    schools or golf clubs, that few people could afford
+    (<xref alt="Stark, 2009" rid="ref-stark_assessing_2009" ref-type="bibr">Stark,
+    2009</xref>). I first examined the literature on affordability as
+    applied to, for example, affordable housing, fines levied by the
+    courts and fuel poverty. I then described a microsimulation model
+    that shows the proportions of households who might be able to afford
+    the proposed fees of some applicant for charitable status. Again, I
+    believe this was the first model of its kind.</p>
       </sec>
     </sec>
     <sec id="chapter-2-building-a-tax-benefit-model-a-narrative">
@@ -296,8 +297,11 @@ work.</funding-statement>
   have a substantial effect on population health and wellbeing. In
   addition, politicians must consider the electoral implications of
   policies that would affect large sections of the population. In my
-  third report, Treating Causes not Symptoms (Johnson et al. 2023), I
-  describe the Public Policy Preference Calculator (TriplePC), a new
+  third report, Treating Causes not Symptoms
+  (<xref alt="Johnson et al., 2023" rid="ref-johnson_treating_2023" ref-type="bibr">Johnson
+  <italic>et al.</italic>, 2023</xref>), I describe the
+  <ext-link ext-link-type="uri" xlink:href="https://triplepc.northumbria.ac.uk">Public
+  Policy Preference Calculator (TriplePC)</ext-link>, a new
   microsimulation model that seeks to extend the microsimulation in two
   ways.</p>
       <p>First, as well as modelling the outcomes of a policy in the
@@ -307,23 +311,31 @@ work.</funding-statement>
   popular with , but which policymakers have been unwilling to touch
   because of uncertainty about their electoral consequences. Perhaps the
   best example from UK history is the SDP/Liberal Democrat’s ‘Dead
-  Parrot’ merger manifesto of January 1988 (Gourley, n.d.; Crewe &amp;
-  King, 1995), which proposed the abolition of Child Benefit and the
+  Parrot’ merger manifesto of January 1988
+  (<xref alt="Crewe and King, 1995a" rid="ref-crewe_merger_1995" ref-type="bibr">Crewe
+  and King, 1995a</xref>;
+  <xref alt="Gourley, 2020" rid="ref-gourley_dead_2020" ref-type="bibr">Gourley,
+  2020</xref>), which proposed the abolition of Child Benefit and the
   imposition of a uniform rate of Value Added Tax (VAT) to raise money
   for an anti-poverty program. Although this had been modelled in
   detail, fear of the electoral consequences among Members of Parliament
   meant the manifesto was abandoned within a day. The resulting
   confusion and indecision arguably caused long-lasting damage to
-  centrist politics in the UK (Crewe &amp; King, 1995). The UK’s
-  zero-rating for food and children’s clothing remains politically
-  untouchable to this day despite the orthodox economic arguments in
-  favour of a uniform rate (Crawford et al., 2010). But would VAT
-  extension really be unpopular, especially if it was part of a package
-  that used the money raised for poverty reduction or other appealing
-  policies? Our approach allows us to address questions like this.</p>
+  centrist politics in the UK
+  (<xref alt="Crewe and King, 1995b" rid="ref-10.1093U002FosoU002F9780198280507.001.0001" ref-type="bibr">Crewe
+  and King, 1995b</xref>). The UK’s zero-rating for food and children’s
+  clothing remains politically untouchable to this day despite the
+  orthodox economic arguments in favour of a uniform rate
+  (<xref alt="Crawford, Keen and Smith, 2010" rid="ref-crawford_dimensions_2010" ref-type="bibr">Crawford,
+  Keen and Smith, 2010</xref>). But would VAT extension really be
+  unpopular, especially if it was part of a package that used the money
+  raised for poverty reduction or other appealing policies? Our approach
+  allows us to address questions like this.</p>
       <p>Second, I integrated health outcomes into the model. There is
   strong evidence that welfare policies can have a substantial effect on
-  population health (Johnson et al., 2022). A stark reminder of the real
+  population health
+  (<xref alt="Reed et al., 2024" rid="ref-reed_examining_2024" ref-type="bibr">Reed
+  <italic>et al.</italic>, 2024</xref>). A stark reminder of the real
   impact of worsening population health can be seen in the proportion of
   the UK population with a long-standing illness, disability or
   impairment which causes substantial difficulty with day-to-day
@@ -404,27 +416,34 @@ work.</funding-statement>
     </sec>
     <sec id="public-preferences-conjoint-analysis">
       <title>Public preferences: Conjoint analysis</title>
-      <p>Conjoint analysis (Hainmueller et al., 2013) is a survey-based
-  technique originally developed as a market research tool, to examine
-  how consumers value characteristics (sweetness, colour, alcohol
-  content, etc.) of goods. Recently, the technique has become popular as
-  a method for discovering the public’s relative valuations of competing
-  economic or social policies (Bremer &amp; Bürgisser, 2023). Research
-  comparing conjoint survey experiments to actual votes has shown that
-  the conjoint results are good predictors of voting outcomes (Bansak et
-  al., 2023).</p>
-      <p>Our study is described in full in (Nettle et al., 2023), with the
-  data available as (Johnson et al., 2023). The authors of that study
-  recruited 800 UK resident adults through the Prolific online platform.
-  Participants were asked repeatedly to choose their preferred welfare
-  policy from sets of two. Each time, the two policies contained the
-  same input (design) and outcome (health and distributional) attributes
-  but with randomised levels in each (e.g. payment sizes of £63 per
-  child, £145 per adult and £190 per pensioner; poverty decreased by 25%
-  etc.). Each participant completed 15 choice tasks. Each option within
-  each task was defined by 10 attributes. Each attribute had three to
-  nine possible levels. Table 1 shows the full list of 10 attributes
-  with between three and nine levels each.</p>
+      <p>Conjoint analysis
+  (<xref alt="Hainmueller, Hopkins and Yamamoto, 2013" rid="ref-hainmueller_causal_2013" ref-type="bibr">Hainmueller,
+  Hopkins and Yamamoto, 2013</xref>) is a survey-based technique
+  originally developed as a market research tool, to examine how
+  consumers value characteristics (sweetness, colour, alcohol content,
+  etc.) of goods. Recently, the technique has become popular as a method
+  for discovering the public’s relative valuations of competing economic
+  or social policies
+  (<xref alt="Bremer and Bürgisser, 2023" rid="ref-bremer_citizens_2023" ref-type="bibr">Bremer
+  and Bürgisser, 2023</xref>). Research comparing conjoint survey
+  experiments to actual votes has shown that the conjoint results are
+  good predictors of voting outcomes
+  (<xref alt="Bansak et al., 2023" rid="ref-bansak_using_2023" ref-type="bibr">Bansak
+  <italic>et al.</italic>, 2023</xref>).</p>
+      <p>Our study is described in full in
+  (<xref alt="Nettle et al., 2023" rid="ref-nettle_what_2023" ref-type="bibr">Nettle
+  <italic>et al.</italic>, 2023</xref>), with the data available as
+  (Johnson et al., 2023). The authors of that study recruited 800 UK
+  resident adults through the Prolific online platform. Participants
+  were asked repeatedly to choose their preferred welfare policy from
+  sets of two. Each time, the two policies contained the same input
+  (design) and outcome (health and distributional) attributes but with
+  randomised levels in each (e.g. payment sizes of £63 per child, £145
+  per adult and £190 per pensioner; poverty decreased by 25% etc.). Each
+  participant completed 15 choice tasks. Each option within each task
+  was defined by 10 attributes. Each attribute had three to nine
+  possible levels. Table 1 shows the full list of 10 attributes with
+  between three and nine levels each.</p>
       <p>Relative to the UK population, the sample contained an
   over-representation of people who voted for the left to centre-left
   Labour party at the 2019 general election (44.3% of those in our
@@ -631,17 +650,16 @@ work.</funding-statement>
     2023a), an open-source microsimulation model of Scotland written in
     the Julia programming language. Scotben is a conventionally
     structured static tax-benefit model, in the family of models
-    branching out from the Institute for Fiscal Studies’ TAXBEN (Johnson
-    et al., 1990) of which two of this article’s authors (Reed and
-    Stark) were developers. For this project, we extended the scope of
-    the model to Great Britain2 using a single 2021/22 wave of Family
-    Resources Survey (FRS) data (Department for Work and Pensions,
-    2019). The model covers the whole of the UK personal tax and benefit
-    system, including local taxes, with some minor exceptions such as
-    Scottish Best Starts grants. As a base, we use the tax and benefit
-    system as of Q3 2023, and all incomes, wealth and consumption are
-    also uprated to 2023 Q3. We use the 2021/22 FRS sample weights
-    as-is.</p>
+    branching out from the Institute for Fiscal Studies’ TAXBEN. For
+    this project, we extended the scope of the model to Great Britain2
+    using a single 2021/22 wave of Family Resources Survey (FRS) data
+    (<xref alt="DWP, 2012" rid="ref-dwp_family_2012" ref-type="bibr">DWP,
+    2012</xref>). The model covers the whole of the UK personal tax and
+    benefit system, including local taxes, with some minor exceptions
+    such as Scottish Best Starts grants. As a base, we use the tax and
+    benefit system as of Q3 2023, and all incomes, wealth and
+    consumption are also uprated to 2023 Q3. We use the 2021/22 FRS
+    sample weights as-is.</p>
         <p>The outcome questions are phrased as changes (e.g. ‘50% fewer
     cases of anxiety and depression’, ‘Poverty increased by 50%’). A
     particularly tricky question arising from this is how to establish a
@@ -687,7 +705,7 @@ work.</funding-statement>
         <title>Benefits</title>
         <p>The payment size question in the conjoint survey was about a
     hypothetical system of payments that most closely reflects the
-    simplicity of Basic Income (Reed et al., 2023b). There were also
+    simplicity of Basic Income [reed_universal_2023b]. There were also
     questions about eligibility, means-testing and citizenship (see
     Table 1, above). It is not clear how this proposed system of cash
     transfers should interact with the existing tax and benefit system,
@@ -1064,6 +1082,22 @@ work.</funding-statement>
   <back>
     <ref-list>
       <title/>
+      <ref id="ref-stark_assessing_2009">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+          </person-group>
+          <article-title>ASSESSING THE ABILITY TO PAY FOR THE FEES CHARGED BY CHARITIES PHASE 1 REPORT</article-title>
+          <year iso-8601-date="2009-02">2009</year>
+          <month>02</month>
+          <uri>https://www.oscr.org.uk/media/1661/ability-to-pay-research-report-phase-1.pdf</uri>
+          <fpage>36</fpage>
+          <lpage/>
+        </element-citation>
+      </ref>
       <ref id="ref-stark_modelling_1986">
         <element-citation publication-type="report">
           <person-group person-group-type="author">
@@ -1413,6 +1447,23 @@ work.</funding-statement>
           <pub-id pub-id-type="doi">10.1920/re.ifs.1993.0041</pub-id>
         </element-citation>
       </ref>
+      <ref id="ref-dwp_family_2012">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DWP</surname>
+            </name>
+          </person-group>
+          <source>The Family Resources Survey</source>
+          <year iso-8601-date="2012">2012</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2012-11-16">2012</year>
+            <month>11</month>
+            <day>16</day>
+          </date-in-citation>
+          <uri>http://research.dwp.gov.uk/asd/frs/</uri>
+        </element-citation>
+      </ref>
       <ref id="ref-giles_taxbenU003A_1995">
         <element-citation publication-type="article-journal">
           <person-group person-group-type="author">
@@ -1615,6 +1666,354 @@ work.</funding-statement>
             <day>29</day>
           </date-in-citation>
           <uri>https://ifs.org.uk/journals/savings-independent-taxation-and-1990-budget</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-johnson_treating_2023">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Elliot</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Matthew</given-names>
+            </name>
+            <name>
+              <surname>Nettle</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name>
+              <surname>Goodman</surname>
+              <given-names>Cleo</given-names>
+            </name>
+            <name>
+              <surname>Coates</surname>
+              <given-names>Jonathan</given-names>
+            </name>
+            <name>
+              <surname>Parra-Mujica</surname>
+              <given-names>Fiorella</given-names>
+            </name>
+            <name>
+              <surname>Pickett</surname>
+              <given-names>Kate</given-names>
+            </name>
+            <name>
+              <surname>Robson</surname>
+              <given-names>Iain</given-names>
+            </name>
+          </person-group>
+          <article-title>Treating causes not symptoms: Basic Income as a public health measure</article-title>
+          <source>Compass</source>
+          <year iso-8601-date="2023">2023</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2024-05-29">2024</year>
+            <month>05</month>
+            <day>29</day>
+          </date-in-citation>
+          <uri>https://www.compassonline.org.uk/publications/treating-causes-not-symptoms-basic-income-as-a-public-health-measure/</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-crewe_merger_1995">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crewe</surname>
+              <given-names>Ivor</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>Anthony</given-names>
+            </name>
+          </person-group>
+          <article-title>Of Merger and a Dead Parrot</article-title>
+          <source>SDP: The Birth, Life and Death of the Social Democratic Party</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Crewe</surname>
+              <given-names>Ivor</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>Anthony</given-names>
+            </name>
+          </person-group>
+          <publisher-name>Oxford University Press</publisher-name>
+          <year iso-8601-date="1995-11">1995</year>
+          <month>11</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-11-20">2023</year>
+            <month>11</month>
+            <day>20</day>
+          </date-in-citation>
+          <isbn>978-0-19-828050-7</isbn>
+          <uri>https://doi.org/1stark_public_20240.1093/oso/9780198280507.003.0021</uri>
+          <pub-id pub-id-type="doi">10.1093/oso/9780198280507.003.0021</pub-id>
+          <fpage>0</fpage>
+          <lpage/>
+        </element-citation>
+      </ref>
+      <ref id="ref-gourley_dead_2020">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gourley</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <article-title>The ‘Dead Parrot’ document</article-title>
+          <source>Journal of Liberal History</source>
+          <year iso-8601-date="2020">2020</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-11-20">2023</year>
+            <month>11</month>
+            <day>20</day>
+          </date-in-citation>
+          <uri>https://liberalhistory.org.uk/history/dead-parrot-document/</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-stark_public_2024">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Elliott</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Matthew</given-names>
+            </name>
+            <name>
+              <surname>Nettle</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name>
+              <surname>Reed</surname>
+              <given-names>Howard</given-names>
+            </name>
+          </person-group>
+          <article-title>The Public Policy Preference Calculator (TriplePC): Developing a comprehensive welfare policy microsimulation.</article-title>
+          <source>International Journal of Microsimulation.</source>
+          <year iso-8601-date="2024">2024</year>
+          <uri>https://doi.org/10.17605/OSF.IO/SKPYB</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-10.1093U002FosoU002F9780198280507.001.0001">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crewe</surname>
+              <given-names>Ivor</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>Anthony</given-names>
+            </name>
+          </person-group>
+          <source>SDP: The Birth, Life and Death of the Social Democratic Party</source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <year iso-8601-date="1995-11">1995</year>
+          <month>11</month>
+          <isbn>9780198280507</isbn>
+          <uri>https://doi.org/10.1093/oso/9780198280507.001.0001</uri>
+          <pub-id pub-id-type="doi">10.1093/oso/9780198280507.001.0001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-crawford_dimensions_2010">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crawford</surname>
+              <given-names>Ian</given-names>
+            </name>
+            <name>
+              <surname>Keen</surname>
+              <given-names>Mick</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>Stephen</given-names>
+            </name>
+          </person-group>
+          <article-title>Dimensions of Tax Design: Value added tax and excises</article-title>
+          <source>Institute for Fiscal Studies</source>
+          <year iso-8601-date="2010-04">2010</year>
+          <month>04</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-10-18">2023</year>
+            <month>10</month>
+            <day>18</day>
+          </date-in-citation>
+          <uri>https://ifs.org.uk/books/value-added-tax-and-excises</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-reed_examining_2024">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reed</surname>
+              <given-names>Howard</given-names>
+            </name>
+            <name>
+              <surname>Nettle</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name>
+              <surname>Parra-Mujica</surname>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>Richard</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Matthew</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Elliot</given-names>
+            </name>
+          </person-group>
+          <article-title>Examining the relationship between income and health among adults in the UK Preprint 2024.04.03.pdf</article-title>
+          <year iso-8601-date="2024-04">2024</year>
+          <month>04</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2024-05-29">2024</year>
+            <month>05</month>
+            <day>29</day>
+          </date-in-citation>
+          <uri>https://osf.io/https://osf.io/ngtxs</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-bansak_using_2023">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bansak</surname>
+              <given-names>Kirk</given-names>
+            </name>
+            <name>
+              <surname>Hainmueller</surname>
+              <given-names>Jens</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>Daniel J.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>Teppei</given-names>
+            </name>
+          </person-group>
+          <article-title>Using Conjoint Experiments to Analyze Election Outcomes: The Essential Role of the Average Marginal Component Effect</article-title>
+          <source>Political Analysis</source>
+          <year iso-8601-date="2023-10">2023</year>
+          <month>10</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-11-16">2023</year>
+            <month>11</month>
+            <day>16</day>
+          </date-in-citation>
+          <volume>31</volume>
+          <issue>4</issue>
+          <issn>1047-1987, 1476-4989</issn>
+          <uri>https://www.cambridge.org/core/journals/political-analysis/article/using-conjoint-experiments-to-analyze-election-outcomes-the-essential-role-of-the-average-marginal-component-effect/0B7D820F9775C9B19D800BF9B088C358</uri>
+          <pub-id pub-id-type="doi">10.1017/pan.2022.16</pub-id>
+          <fpage>500</fpage>
+          <lpage>518</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-hainmueller_causal_2013">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hainmueller</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <source>Causal Inference in Conjoint Analysis: Understanding Multidimensional Choices via Stated Preference Experiments</source>
+          <publisher-name>SSRN</publisher-name>
+          <year iso-8601-date="2013">2013</year>
+          <uri>https://dspace.mit.edu/handle/1721.1/84064</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-bremer_citizens_2023">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bremer</surname>
+              <given-names>Björn</given-names>
+            </name>
+            <name>
+              <surname>Bürgisser</surname>
+              <given-names>Reto</given-names>
+            </name>
+          </person-group>
+          <article-title>Do citizens care about government debt? Evidence from survey experiments on budgetary priorities</article-title>
+          <source>European Journal of Political Research</source>
+          <year iso-8601-date="2023">2023</year>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-11-21">2023</year>
+            <month>11</month>
+            <day>21</day>
+          </date-in-citation>
+          <volume>62</volume>
+          <issue>1</issue>
+          <issn>1475-6765</issn>
+          <uri>https://onlinelibrary.wiley.com/doi/abs/10.1111/1475-6765.12505</uri>
+          <pub-id pub-id-type="doi">10.1111/1475-6765.12505</pub-id>
+          <fpage>239</fpage>
+          <lpage>263</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-nettle_what_2023">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nettle</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name>
+              <surname>Chrisp</surname>
+              <given-names>Joe</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Elliott</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Matthew T.</given-names>
+            </name>
+          </person-group>
+          <article-title>What do British people want from a welfare system? Conjoint survey evidence on generosity, conditionality, funding, and outcomes</article-title>
+          <publisher-name>SocArXiv</publisher-name>
+          <year iso-8601-date="2023-09">2023</year>
+          <month>09</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-11-13">2023</year>
+            <month>11</month>
+            <day>13</day>
+          </date-in-citation>
+          <uri>https://osf.io/preprints/socarxiv/zfnuh/</uri>
+          <pub-id pub-id-type="doi">10.31235/osf.io/zfnuh</pub-id>
         </element-citation>
       </ref>
     </ref-list>
