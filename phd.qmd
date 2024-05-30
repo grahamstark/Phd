@@ -193,7 +193,7 @@ The conjoint experimental survey had six income tax rate options with a basic, h
 
 ### Benefits 
 
-The payment size question in the conjoint survey was about a hypothetical system of payments that most closely reflects the simplicity of Basic Income [reed_universal_2023b]. There were also questions about eligibility, means-testing and citizenship (see Table 1, above). It is not clear how this proposed system of cash transfers should interact with the existing tax and benefit system, especially bearing in mind that the question is not how an expert believes they should interact, but what was most likely in the mind of the conjoint respondents. We follow our recent analysis (Reed et al., 2023b) and assume: 
+The payment size question in the conjoint survey was about a hypothetical system of payments that most closely reflects the simplicity of Basic Income [@reed_universal_2023b]. There were also questions about eligibility, means-testing and citizenship (see Table 1, above). It is not clear how this proposed system of cash transfers should interact with the existing tax and benefit system, especially bearing in mind that the question is not how an expert believes they should interact, but what was most likely in the mind of the conjoint respondents. We follow our recent analysis (Reed et al., 2023b) and assume: 
 
 * means-tested benefits are retained.4 
 * most other benefits, including the State Pension and Child Benefit, are abolished and replaced by the cash transfers. 
@@ -210,11 +210,11 @@ There is ambiguity in some of these options. A wealth tax or carbon levy could b
 
 #### ‘Increase in VAT’ (Value Added Tax) 
 
-Our Family Resources Survey (FRS) dataset has no expenditure data. The main UK source of household expenditure data is the Living Costs and Food Survey (LCF) (Office for National Statistics, 2019a). To model the complex set of VAT exemptions and zero-rated goods5, we therefore have three choices: 
+Our Family Resources Survey (FRS) dataset has no expenditure data. The main UK source of household expenditure data is the Living Costs and Food Survey (LCF) [@ons-lcf-19]. To model the complex set of VAT exemptions and zero-rated goods5, we therefore have three choices: 
 
-* Switching the primary dataset to be the LCF. LCF6 was the primary dataset of all UK Tax Benefit Models until it was supplanted by the FRS. LCF remains the source used in the Treasury’s IGOTM model (Brice, 2015). But to model other options such as wealth taxes, we would need still other datasets. Switching between multiple different datasets, and hence slightly different base outcomes, depending on which options were being modelled could be confusing. 
+* Switching the primary dataset to be the LCF. LCF6 was the primary dataset of all UK Tax Benefit Models until it was supplanted by the FRS. LCF remains the source used in the Treasury’s IGOTM model [@brice_using_2015]. But to model other options such as wealth taxes, we would need still other datasets. Switching between multiple different datasets, and hence slightly different base outcomes, depending on which options were being modelled could be confusing. 
 * Imputing expenditure data onto the FRS via a demand system. This seems appealing as the model would be consistent with economic theory, expenditure could vary with tax rates, and, in principle, we could use the demand system to calculate changes in economic welfare rather than just estimate cash changes. But it is infeasible to build a demand system with fine enough detail to adequately model the complex set of exemptions and zero-rated goods.  
-* Assigning LCF records to our primary FRS dataset using data matching, which is the option we chose. Since it is important to capture the relationship between income and expenditure, we performed the matching in two steps. We selected a candidate group of LCF donors in the conventional way (matching on age, sex, tenure, etc.) and then ranked among those candidates by income (Stark, 2023). 
+* Assigning LCF records to our primary FRS dataset using data matching, which is the option we chose. Since it is important to capture the relationship between income and expenditure, we performed the matching in two steps. We selected a candidate group of LCF donors in the conventional way (matching on age, sex, tenure, etc.) and then ranked among those candidates by income. 
 
 In aggregate, our current VAT modelling under-predicts revenues by about 50%: we model £102bn for VAT revenues as against actual revenues for 2022/3 of £160bn (HMRC 2023). There are well-known problems with under-reporting LCF expenditure data such as of alcohol and tobacco spending (Reed 2012) which will account for much of this. For this exercise, we provide a crude fix by grossing up all the expenditure records by 1.5. Undoubtedly this is an area we can improve on.  
 
@@ -226,15 +226,15 @@ Modelling wealth is tricky for three reasons:
 2. The form this wealth tax should take is not specified. 
 3. Wealth taxes are held to be particularly easy to evade or avoid (Scheuer & Slemrod, 2021). 
 
-To solve 1., we impute data from the Wealth and Assets Survey (WAS) (Office for National Statistics, 2019b) onto the FRS households. We chose to do this using a simple linear regression of three categories of wealth (pensions, housing, and financial and other assets) against household characteristics that are common to  FRS and WAS.  In retrospect, regression-based imputation was likely a mistake and matching  will be used in future versions.  
+To solve 1., we impute data from the Wealth and Assets Survey (WAS) [@ons-was-19a] onto the FRS households. We chose to do this using a simple linear regression of three categories of wealth (pensions, housing, and financial and other assets) against household characteristics that are common to  FRS and WAS.  In retrospect, regression-based imputation was likely a mistake and matching  will be used in future versions.  
 
-For the form of the tax, we were guided by the Wealth Tax Commission (Advani et al., 2020). We followed their recommendations of excluding pension wealth, having an allowance of £500,000, and having the tax payable over five years, though we deviated from the Commission in applying the tax to aggregate household wealth rather than individual wealth (Chamberlain, 2020). 
+For the form of the tax, we were guided by the Wealth Tax Commission [@advani_wealth_2020]. We followed their recommendations of excluding pension wealth, having an allowance of £500,000, and having the tax payable over five years, though we deviated from the Commission in applying the tax to aggregate household wealth rather than individual wealth [@chamberlain_defining_2020]. 
 
 Even when payable over five years, as recommended by the Wealth Tax Commission, the payments from wealth taxes needed to fund some of the more generous benefit schemes can exceed net income for many families, especially elderly families who have high housing wealth. Most likely the scheme would need to be augmented by an income-related rebate scheme, or some scheme to defer until death. 
 
 #### ‘Corporation tax increases’ 
 
-Building a plausible micro-data based model of Corporation Tax is difficult and not something that could be contemplated for this project. In any case, for a household-based microsimulation model, what matters is the incidence of the tax on the households. This could be on profits, or passed on in price increases or real wage reductions (Harberger, 1962; Atkinson & Stiglitz, 2015). If we make a simple ‘small country’ assumption – that the rate of return on capital and the price of tradeable goods are set exogenously on world markets – then Corporation Tax is ultimately incident on (private sector) wages and self-employment income. Therefore, we calculate the tax increase needed to meet the costs of the benefit increase and reduce the wage bill by that amount. Note that as the wage bill falls, direct tax revenues also fall, but in a non-linear way because of the tax allowance and progressive tax rate structures, so finding the correct Corporation Tax increase requires the use of our root-finder. In practice the rates needed for the more generous benefit increases can be implausibly large, exceeding in some cases total UK Corporation’s Gross Profits. 
+Building a plausible micro-data based model of Corporation Tax is difficult and not something that could be contemplated for this project. In any case, for a household-based microsimulation model, what matters is the incidence of the tax on the households. This could be on profits, or passed on in price increases or real wage reductions [@harberger_incidence_1962; @atkinson_lectures_2015]. If we make a simple ‘small country’ assumption – that the rate of return on capital and the price of tradeable goods are set exogenously on world markets – then Corporation Tax is ultimately incident on (private sector) wages and self-employment income. Therefore, we calculate the tax increase needed to meet the costs of the benefit increase and reduce the wage bill by that amount. Note that as the wage bill falls, direct tax revenues also fall, but in a non-linear way because of the tax allowance and progressive tax rate structures, so finding the correct Corporation Tax increase requires the use of our root-finder. In practice the rates needed for the more generous benefit increases can be implausibly large, exceeding in some cases total UK Corporation’s Gross Profits. 
 
 ### Model flow 
 
@@ -271,68 +271,6 @@ I have presented the TriplePC, a new microsimulation model with novel but import
 ## Conclusion 
 
 ## References 
-
-Buck, Alexy, and Graham Stark. 2001. Means Assessment: Options for Change. LSRC Research Paper No.8. Legal Services Commission. 
-
-Buck, Alexy, and Graham Stark. 2003. Simplicity versus Fairness in Means Testing: The Case of Civil Legal Aid. Fiscal Studies 24 (4): 427–49. https://doi.org/10.1111/j.1475-5890.2003.tb00090.x. 
-
-Coulter, Fiona, Graham Stark, and Stephen Smith. 1995. ‘Micro-Simulation Modelling of Personal Taxation and Social Security Benefits in the Czech Republic’. IFS Working Paper Series W95/58. 
-
-Davis, Evan, Dilnot, Andrew S., Giles, Flanders Christopher, Johnson, Paul, Ridge, Michael, Stark, Graham, Webb, Steven, and Whitehouse Edward. 1992.  https://ifs.org.uk/sites/default/files/output_url_files/comm29.pdf  
-
-Dilnot, Andrew, and Graham Stark. 1986a. The Poverty Trap, Tax Cuts, and the Reform of Social Security. Fiscal Studies 7 (1): 1–10. https://doi.org/10.1111/j.1475-5890.1986.tb00410.x. 
-
-Dilnot, Andrew, and Stark, Graham. 1986b. The Distributional Consequences of Mrs Thatcher. Fiscal Studies 7 (2): 48–53. https://doi.org/10.1111/j.1475-5890.1986.tb00421.x. 
-
-Dilnot, Andrew, Graham Stark, and Steven Webb. 1987. ‘The Targeting of Benefits: Two Approaches’. Fiscal Studies 8 (1): 83–93. https://doi.org/10.1111/j.1475-5890.1987.tb00434.x. 
-
-Dilnot, Andrew, Graham Stark, Ian Walker, and Steven Webb. 1987. ‘The 1987 Budget in Perspective’. Fiscal Studies 8 (2): 48–57. https://doi.org/10.1111/j.1475-5890.1987.tb00535.x. 
-
-Duncan, Alan, and Graham Stark. 2000. ‘A Recursive Algorithm to Generate Piecewise Linear Budget Contraints’. 2 May 2000. https://doi.org/10.1920/wp.ifs.2000.0011. 
-
-Fry, Vanessa, and Graham Stark. 1987. ‘The Take-Up of Supplementary Benefit: Gaps in the “Safety Net”?’ Fiscal Studies 8 (4): 1–14. https://doi.org/10.1111/j.1475-5890.1987.tb00302.x. 
-
-Fry, Vanessa, and Graham Stark. 1992. The Takeup of Means-Tested Benefits in the UK: The Transition to Income Support and Family Credit. Institute for Fiscal Studies. 
-
-Fry, Vanessa, and Graham Stark. 1993. ‘The Take-up of Means-Tested Benefits, 1984-90’. 1 January 1993. https://doi.org/10.1920/re.ifs.1993.0041. 
-
-Giles, Christopher and McCrae, Julian. 1995. TAXBEN: the IFS microsimulation tax and benefit model. Working Paper 1995. https://ifs.org.uk/publications/taxben-ifs-microsimulation-tax-and-benefit-model 
-
-Johnson, Elliott A., Reed, Howard, Nettle, Daniel, Stark, Graham, Chrisp, Joe, Howard, Neil, Gregory, Grace, Goodman, Cleopatra, Smith, Matt, Coates, Jonathan, Robson, Ian, Parra-Mujica, Fiorella, Pickett, Kate E. and Johnson, Matthew T. 2023. Treating Causes Not Symptoms: Basic Income as a Public Health Measure, London: Compass, <https://www.compassonline.org.uk/publications/treating-causes-not-symptoms-basic-income-as-a-public-health-measure> 
-
-Johnson, Elliott A., Reed, Howard, Stark, Graham, Villadsen, Aase, Parra-Mujica, Fiorella, Kypridemos, Chris, Cookson, Richard, Nettle, Daniel, Pickett, Kate E., Johnson, Matthew T. (2023) ‘The Health Case for Basic Income: Case Study’, UK Data Service, London: UKDS, <https://ukdataservice.ac.uk/case-study/the-health-case-for-basic-income/> 
-
-Johnson, Paul, and Graham Stark. 1989. ‘Ten Years of Mrs Thatcher: The Distributional Consequences’. Fiscal Studies 10 (2): 29–37. 
-
-Johnson, Paul, and Graham Stark. 1991. ‘The Effects of a Minimum Wage on Family Incomes’. Fiscal Studies 12 (3): 88–93. https://doi.org/10.1111/j.1475-5890.1991.tb00164.x. 
-
-Johnson, Paul, Steven Webb, and Graham Stark. 1990. ‘TAXBEN2: The New IFS Tax and Benefit Model’. IFS Working Paper W90/5. https://doi.org/10.1111/j.1475-5890.1989.tb00107.x. 
-
-Reed, H., Johnson, E. A., Stark, G., Nettle, D., Pickett, K. E. & Johnson, M. T. (2023) ‘Estimating the effects of Basic Income schemes on mental and physical health among 18+ adults in the UK: a microsimulation study’, under review PLOS Mental Health. https://doi.org/10.17605/OSF.IO/SKPYB 
-
-Reed, Howard, Nettle, Daniel, Parra-Mujica, Fiorella, Stark, Graham, Wilkinson, Richard, Johnson, Matthew T., Johnson, Elliott. A. (2024) ‘Examining the relationship between income and both mental and physical health among adults in the UK: Analysis of 12 waves (2009-2022) of Understanding Society’, under review PLOS One. Working paper: https://doi.org/10.17605/OSF.IO/SKPYB 
-
-Reed, Howard, and Graham Stark. 2009. Assessing the Ability to Pay for the Fees Charged by Charities: Phase 1 & 2. February, 36. Edinburgh: Office of the Scottish Charities Regulator (OSCR). http://www.oscr.org.uk/publications-and-guidance/affordability-reportphase-2/. 
-
-Reed, Howard, and Graham Stark. 2011a. Modelling the Costs for Individuals and Public Authorities in Wales of Alternative Funding Systems for the Long-Term Care of Adults: Stage 1 Report: Building a Forecasting Model for Long-Term Care in Wales. Welsh Assembly Government. 
-
-Reed, Howard, and Graham Stark. 2011b. Modelling the Costs for Individuals and Public Authorities in Wales of Alternative Funding Systems for the Long-Term Care of Adults. Welsh Assembly Government. 
-
-Reed, Howard, and Graham Stark. 2013. Costing the “When I Am Ready” Scheme. Action for Children Wales/Gweithredu dros Blant. 
-
-Reed, Howard, and Graham Stark. 2018. Tackling Child Poverty Delivery Plan: Forecasting Child Poverty in Scotland. Scottish Government. http://www.gov.scot/Publications/2018/03/2911/0. 
-
-Reed, Howard, and Graham Stark. 2020. Giving Care Leavers the Chance to Stay: Staying Put Six Years on: Technical Report. Action for Children England. https://doi.org/10.1111/j.1475-5890.1988.tb00319.x. 
-
-Robinson, Bill, and Graham Stark. 1988. ‘The Tax Treatment of Marriage: What Has the Chancellor Really Achieved?’ Fiscal Studies 9 (2): 48–56. 
-
-Stark, Graham. 1988. ‘Partially Transferable Allowances’. Fiscal Studies 9 (1): 29–40. https://doi.org/10.1111/j.1475-5890.1988.tb00310.x. 
-
-Stark, Graham. 2021. Staying Put Six Years on: 2021 Update. Action for Children England. 
-
-Stark, Graham, Johnson, Elliott A., Reed, Howard, Nettle, Daniel, and Johnson, Matthew T. 2024 in press. The Public Policy Preference Calculator (TriplePC): Developing a comprehensive welfare policy microsimulation. International Journal of Microsimulation. Working paper: https://doi.org/10.17605/OSF.IO/SKPYB 
-
-
 
 
 [^fn-policyengine]: The exeption is Policy Engine, an interesting new kid on the block [@woodruff_policyengine_2024]

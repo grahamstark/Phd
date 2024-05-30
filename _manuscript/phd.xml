@@ -444,6 +444,7 @@ work.</funding-statement>
   was defined by 10 attributes. Each attribute had three to nine
   possible levels. Table 1 shows the full list of 10 attributes with
   between three and nine levels each.</p>
+      <p>!! table 1 xxx</p>
       <p>Relative to the UK population, the sample contained an
   over-representation of people who voted for the left to centre-left
   Labour party at the 2019 general election (44.3% of those in our
@@ -468,17 +469,19 @@ work.</funding-statement>
       <p>We simultaneously estimated the average impact of preference or
   dis-preference for particular feature attribute-value on preference
   for policies overall using comparable scales through computation of
-  Average Marginal Component Effects (AMCEs) (Hainmueller et al., 2013)
-  from linear probability models. The AMCE for a given level of an
-  attribute can be interpreted as the marginal effect on the probability
-  of choice of the attribute being at that level compared to the
-  reference level, averaging across the possible levels of all other
-  attributes. Through randomization and a high number of pairwise
-  comparisons, this allows us to quantify the causal effect of including
-  specific levels of individual reform elements on the support for the
-  entire reform package, compared with the support for a reform package
-  that contains the baseline level (status quo) of this particular
-  reform element (Nettle et al., 2023a). That study found:</p>
+  Average Marginal Component Effects
+  (AMCEs)(<xref alt="Hainmueller, Hopkins and Yamamoto, 2013" rid="ref-hainmueller_causal_2013" ref-type="bibr">Hainmueller,
+  Hopkins and Yamamoto, 2013</xref>) from linear probability models. The
+  AMCE for a given level of an attribute can be interpreted as the
+  marginal effect on the probability of choice of the attribute being at
+  that level compared to the reference level, averaging across the
+  possible levels of all other attributes. Through randomization and a
+  high number of pairwise comparisons, this allows us to quantify the
+  causal effect of including specific levels of individual reform
+  elements on the support for the entire reform package, compared with
+  the support for a reform package that contains the baseline level
+  (status quo) of this particular reform element (Nettle et al., 2023a).
+  That study found:</p>
       <list list-type="bullet">
         <list-item>
           <p>preference for more generous payments than less generous
@@ -536,14 +539,16 @@ work.</funding-statement>
       </list>
       <p>For the TriplePC, we extract the AMCEs for each component of any
   welfare policy the user wishes to specify through the interface from
-  the data of Nettle et al. (2023a, b). In the conjoint methodology,
-  these are assumed to have an additive effect on popularity. That is,
-  for example, the popularity of a policy combining high income taxes,
-  carbon tax, and a decrease in poverty will be the sum of the negative
-  marginal effect on popularity of the high income tax, the positive
-  marginal effect on popularity of the carbon tax, the positive marginal
-  effect of the poverty reduction, and so on. This summation is the
-  popularity outcome returned by the model.</p>
+  the data of Nettle et al. [Nettle <italic>et al.</italic>
+  (<xref alt="2023" rid="ref-nettle_what_2023" ref-type="bibr">2023</xref>);nettle_sp21_2023].
+  In the conjoint methodology, these are assumed to have an additive
+  effect on popularity. That is, for example, the popularity of a policy
+  combining high income taxes, carbon tax, and a decrease in poverty
+  will be the sum of the negative marginal effect on popularity of the
+  high income tax, the positive marginal effect on popularity of the
+  carbon tax, the positive marginal effect of the poverty reduction, and
+  so on. This summation is the popularity outcome returned by the
+  model.</p>
       <p>The conjoint analysis was conducted ahead of the construction of
   the microsimulation model. As we discuss below, some of the measures
   in Table 1 (income tax, payment sizes, poverty and inequality rates)
@@ -553,15 +558,21 @@ work.</funding-statement>
       <sec id="modelling-health-outcomes">
         <title>Modelling health outcomes</title>
         <p>We model two health measures: mental health and life expectancy.
-    We build a model relating SF-12 scores (Ware, 2002) to income and
-    demographic characteristics. SF-12 is a widely used measure of an
-    individual’s health-related quality of life, with two summary
-    scores: the Physical Component Summary (PCS-12) and the Mental
-    Component Summary (MCS-12). The model is estimated over 12 waves
-    (2009/11-2020/22) of Understanding Society: The UK Household
-    Longitudinal Study (UKHLS) (Institute for Social and Economic
-    Research, 2023) panel data (Reed et al., 2024).1 Another companion
-    article (Reed et al., 2023a) discusses this modelling in detail.</p>
+    We build a model relating SF-12 scores
+    (<xref alt="Ware et al., 2002" rid="ref-ware_2002" ref-type="bibr">Ware
+    <italic>et al.</italic>, 2002</xref>) to income and demographic
+    characteristics. SF-12 is a widely used measure of an individual’s
+    health-related quality of life, with two summary scores: the
+    Physical Component Summary (PCS-12) and the Mental Component Summary
+    (MCS-12). The model is estimated over 12 waves (2009/11-2020/22) of
+    Understanding Society: The UK Household Longitudinal Study
+    (UKHLS)[institute_for_social_and_economic_research_understanding_2024]
+    panel data
+    (<xref alt="Reed et al., 2024" rid="ref-reed_examining_2024" ref-type="bibr">Reed
+    <italic>et al.</italic>, 2024</xref>).
+    (<xref alt="Johnson et al., 2023" rid="ref-johnson_treating_2023" ref-type="bibr">Johnson
+    <italic>et al.</italic>, 2023</xref>) discusses this modelling in
+    detail.</p>
         <sec id="health-modelling-strategy">
           <title>Health modelling strategy</title>
           <p>Our health model is estimated using the ‘between’ individual
@@ -572,9 +583,10 @@ work.</funding-statement>
           <p>The model is a reformulation of the standard Mundlak model and
       has a significant advantage in being able to retain the
       flexibility of random effects models while reducing concerns about
-      bias that fixed effects models address (Bell et al., 2019; Bell
-      &amp; Jones, 2015). The within-between model, conceptually,
-      captures several key income-based drivers of health,
+      bias that fixed effects models address
+      (<xref alt="Bell, Fairbrother and Jones, 2019" rid="ref-bell_fixed_2019" ref-type="bibr">Bell,
+      Fairbrother and Jones, 2019</xref>). The within-between model,
+      conceptually, captures several key income-based drivers of health,
       including:</p>
           <list list-type="bullet">
             <list-item>
@@ -598,35 +610,42 @@ work.</funding-statement>
           income inequality.</p>
             </list-item>
           </list>
-          <p>It does not, however, capture what we anticipate through our
-      model of impact (Johnson et al., 2022) to be very substantial
-      benefits from systems such as Basic Income of increased security
-      of income and protection from destitution for a very large
-      proportion of the population in even relatively highly paid jobs.
-      We use the between-individual coefficient in our modelling because
-      changes to the welfare system are more likely to reflect permanent
-      income shocks. The SF-12 regression are available in a working
-      paper (Reed et al., 2024).</p>
+          <p>We use the between-individual coefficient in our modelling
+      because changes to the welfare system are more likely to reflect
+      permanent income shocks. The SF-12 regression are available in
+      (<xref alt="Reed et al., 2024" rid="ref-reed_examining_2024" ref-type="bibr">Reed
+      <italic>et al.</italic>, 2024</xref>).</p>
           <p>We create a binary variable for cases of depressive disorder
       which takes the value of 1 if the individual’s imputed MCS-12
-      score is ≤45.6 and 0 otherwise (Vilagut et al., 2013). We impute
-      life expectancy from SF-12 in three steps:</p>
+      score is ≤45.6 and 0 otherwise
+      (<xref alt="Vilagut et al., 2013" rid="ref-vilagut_2013" ref-type="bibr">Vilagut
+      <italic>et al.</italic>, 2013</xref>). We impute life expectancy
+      from SF-12 in three steps:</p>
           <list list-type="bullet">
             <list-item>
-              <p>Convert SF-12 scores to SF-6D (Brazier et al., 2002), using
-          software from QualityMetric (QualityMetric, 2022). SF-6D is a
-          preference-based measure of health.</p>
+              <p>Convert SF-12 scores to SF-6D
+          (<xref alt="Brazier, Roberts and Deverill, 2002" rid="ref-brd02" ref-type="bibr">Brazier,
+          Roberts and Deverill, 2002</xref>), using software from
+          QualityMetric
+          (<xref alt="QualityMetric, 2022" rid="ref-qm22" ref-type="bibr">QualityMetric,
+          2022</xref>). SF-6D is a preference-based measure of
+          health.</p>
             </list-item>
             <list-item>
               <p>Use SF-6D score to calculate quality-adjusted life years
           (QALYs). QALYs are a widely recognized standardised measure of
-          health outcomes commonly used in health economics (Drummond et
-          al., 2015; Kaplan &amp; Hays, 2022).</p>
+          health outcomes commonly used in health economics
+          (<xref alt="Drummond et al., 2015" rid="ref-dscst15" ref-type="bibr">Drummond
+          <italic>et al.</italic>, 2015</xref>;
+          <xref alt="Kaplan and Hays, 2022" rid="ref-kh22" ref-type="bibr">Kaplan
+          and Hays, 2022</xref>).</p>
             </list-item>
             <list-item>
               <p>Calculate life expectancy from QALYs using multipliers
           conditional on gender and age. The multipliers are derived
-          from McNamara et al. (2023).</p>
+          from
+          (<xref alt="McNamara et al., 2023" rid="ref-msldg23" ref-type="bibr">McNamara
+          <italic>et al.</italic>, 2023</xref>).</p>
             </list-item>
           </list>
           <p>I made a series of assumptions regarding the responsiveness of
@@ -705,14 +724,16 @@ work.</funding-statement>
         <title>Benefits</title>
         <p>The payment size question in the conjoint survey was about a
     hypothetical system of payments that most closely reflects the
-    simplicity of Basic Income [reed_universal_2023b]. There were also
-    questions about eligibility, means-testing and citizenship (see
-    Table 1, above). It is not clear how this proposed system of cash
-    transfers should interact with the existing tax and benefit system,
-    especially bearing in mind that the question is not how an expert
-    believes they should interact, but what was most likely in the mind
-    of the conjoint respondents. We follow our recent analysis (Reed et
-    al., 2023b) and assume:</p>
+    simplicity of Basic Income
+    (<xref alt="Reed et al., 2023" rid="ref-reed_universal_2023b" ref-type="bibr">Reed
+    <italic>et al.</italic>, 2023</xref>). There were also questions
+    about eligibility, means-testing and citizenship (see Table 1,
+    above). It is not clear how this proposed system of cash transfers
+    should interact with the existing tax and benefit system, especially
+    bearing in mind that the question is not how an expert believes they
+    should interact, but what was most likely in the mind of the
+    conjoint respondents. We follow our recent analysis (Reed et al.,
+    2023b) and assume:</p>
         <list list-type="bullet">
           <list-item>
             <p>means-tested benefits are retained.4</p>
@@ -760,19 +781,23 @@ work.</funding-statement>
           <title>‘Increase in VAT’ (Value Added Tax)</title>
           <p>Our Family Resources Survey (FRS) dataset has no expenditure
       data. The main UK source of household expenditure data is the
-      Living Costs and Food Survey (LCF) (Office for National
-      Statistics, 2019a). To model the complex set of VAT exemptions and
-      zero-rated goods5, we therefore have three choices:</p>
+      Living Costs and Food Survey (LCF)
+      (<xref alt="National Statistics, 2019a" rid="ref-ons-lcf-19" ref-type="bibr">National
+      Statistics, 2019a</xref>). To model the complex set of VAT
+      exemptions and zero-rated goods5, we therefore have three
+      choices:</p>
           <list list-type="bullet">
             <list-item>
               <p>Switching the primary dataset to be the LCF. LCF6 was the
           primary dataset of all UK Tax Benefit Models until it was
           supplanted by the FRS. LCF remains the source used in the
-          Treasury’s IGOTM model (Brice, 2015). But to model other
-          options such as wealth taxes, we would need still other
-          datasets. Switching between multiple different datasets, and
-          hence slightly different base outcomes, depending on which
-          options were being modelled could be confusing.</p>
+          Treasury’s IGOTM model
+          (<xref alt="Brice, 2015" rid="ref-brice_using_2015" ref-type="bibr">Brice,
+          2015</xref>). But to model other options such as wealth taxes,
+          we would need still other datasets. Switching between multiple
+          different datasets, and hence slightly different base
+          outcomes, depending on which options were being modelled could
+          be confusing.</p>
             </list-item>
             <list-item>
               <p>Imputing expenditure data onto the FRS via a demand system.
@@ -792,7 +817,7 @@ work.</funding-statement>
           performed the matching in two steps. We selected a candidate
           group of LCF donors in the conventional way (matching on age,
           sex, tenure, etc.) and then ranked among those candidates by
-          income (Stark, 2023).</p>
+          income.</p>
             </list-item>
           </list>
           <p>In aggregate, our current VAT modelling under-predicts revenues
@@ -821,20 +846,24 @@ work.</funding-statement>
             </list-item>
           </list>
           <p>To solve 1., we impute data from the Wealth and Assets Survey
-      (WAS) (Office for National Statistics, 2019b) onto the FRS
-      households. We chose to do this using a simple linear regression
-      of three categories of wealth (pensions, housing, and financial
-      and other assets) against household characteristics that are
-      common to FRS and WAS. In retrospect, regression-based imputation
-      was likely a mistake and matching will be used in future
-      versions.</p>
+      (WAS)
+      (<xref alt="National Statistics, 2019b" rid="ref-ons-was-19a" ref-type="bibr">National
+      Statistics, 2019b</xref>) onto the FRS households. We chose to do
+      this using a simple linear regression of three categories of
+      wealth (pensions, housing, and financial and other assets) against
+      household characteristics that are common to FRS and WAS. In
+      retrospect, regression-based imputation was likely a mistake and
+      matching will be used in future versions.</p>
           <p>For the form of the tax, we were guided by the Wealth Tax
-      Commission (Advani et al., 2020). We followed their
+      Commission
+      (<xref alt="Advani, Chamberlain and Summers, 2020" rid="ref-advani_wealth_2020" ref-type="bibr">Advani,
+      Chamberlain and Summers, 2020</xref>). We followed their
       recommendations of excluding pension wealth, having an allowance
       of £500,000, and having the tax payable over five years, though we
       deviated from the Commission in applying the tax to aggregate
-      household wealth rather than individual wealth (Chamberlain,
-      2020).</p>
+      household wealth rather than individual wealth
+      (<xref alt="Chamberlain, 2020" rid="ref-chamberlain_defining_2020" ref-type="bibr">Chamberlain,
+      2020</xref>).</p>
           <p>Even when payable over five years, as recommended by the Wealth
       Tax Commission, the payments from wealth taxes needed to fund some
       of the more generous benefit schemes can exceed net income for
@@ -850,19 +879,23 @@ work.</funding-statement>
       project. In any case, for a household-based microsimulation model,
       what matters is the incidence of the tax on the households. This
       could be on profits, or passed on in price increases or real wage
-      reductions (Harberger, 1962; Atkinson &amp; Stiglitz, 2015). If we
-      make a simple ‘small country’ assumption – that the rate of return
-      on capital and the price of tradeable goods are set exogenously on
-      world markets – then Corporation Tax is ultimately incident on
-      (private sector) wages and self-employment income. Therefore, we
-      calculate the tax increase needed to meet the costs of the benefit
-      increase and reduce the wage bill by that amount. Note that as the
-      wage bill falls, direct tax revenues also fall, but in a
-      non-linear way because of the tax allowance and progressive tax
-      rate structures, so finding the correct Corporation Tax increase
-      requires the use of our root-finder. In practice the rates needed
-      for the more generous benefit increases can be implausibly large,
-      exceeding in some cases total UK Corporation’s Gross Profits.</p>
+      reductions
+      (<xref alt="Harberger, 1962" rid="ref-harberger_incidence_1962" ref-type="bibr">Harberger,
+      1962</xref>;
+      <xref alt="Atkinson and Stiglitz, 2015" rid="ref-atkinson_lectures_2015" ref-type="bibr">Atkinson
+      and Stiglitz, 2015</xref>). If we make a simple ‘small country’
+      assumption – that the rate of return on capital and the price of
+      tradeable goods are set exogenously on world markets – then
+      Corporation Tax is ultimately incident on (private sector) wages
+      and self-employment income. Therefore, we calculate the tax
+      increase needed to meet the costs of the benefit increase and
+      reduce the wage bill by that amount. Note that as the wage bill
+      falls, direct tax revenues also fall, but in a non-linear way
+      because of the tax allowance and progressive tax rate structures,
+      so finding the correct Corporation Tax increase requires the use
+      of our root-finder. In practice the rates needed for the more
+      generous benefit increases can be implausibly large, exceeding in
+      some cases total UK Corporation’s Gross Profits.</p>
         </sec>
       </sec>
       <sec id="model-flow">
@@ -971,117 +1004,10 @@ work.</funding-statement>
     <sec id="conclusion">
       <title>Conclusion</title>
     </sec>
-    <sec id="references">
-      <title>References</title>
-      <p>Buck, Alexy, and Graham Stark. 2001. Means Assessment: Options for
-  Change. LSRC Research Paper No.8. Legal Services Commission.</p>
-      <p>Buck, Alexy, and Graham Stark. 2003. Simplicity versus Fairness in
-  Means Testing: The Case of Civil Legal Aid. Fiscal Studies 24 (4):
-  427–49. https://doi.org/10.1111/j.1475-5890.2003.tb00090.x.</p>
-      <p>Coulter, Fiona, Graham Stark, and Stephen Smith. 1995.
-  ‘Micro-Simulation Modelling of Personal Taxation and Social Security
-  Benefits in the Czech Republic’. IFS Working Paper Series W95/58.</p>
-      <p>Davis, Evan, Dilnot, Andrew S., Giles, Flanders Christopher,
-  Johnson, Paul, Ridge, Michael, Stark, Graham, Webb, Steven, and
-  Whitehouse Edward. 1992.
-  https://ifs.org.uk/sites/default/files/output_url_files/comm29.pdf</p>
-      <p>Dilnot, Andrew, and Graham Stark. 1986a. The Poverty Trap, Tax
-  Cuts, and the Reform of Social Security. Fiscal Studies 7 (1): 1–10.
-  https://doi.org/10.1111/j.1475-5890.1986.tb00410.x.</p>
-      <p>Dilnot, Andrew, and Stark, Graham. 1986b. The Distributional
-  Consequences of Mrs Thatcher. Fiscal Studies 7 (2): 48–53.
-  https://doi.org/10.1111/j.1475-5890.1986.tb00421.x.</p>
-      <p>Dilnot, Andrew, Graham Stark, and Steven Webb. 1987. ‘The Targeting
-  of Benefits: Two Approaches’. Fiscal Studies 8 (1): 83–93.
-  https://doi.org/10.1111/j.1475-5890.1987.tb00434.x.</p>
-      <p>Dilnot, Andrew, Graham Stark, Ian Walker, and Steven Webb. 1987.
-  ‘The 1987 Budget in Perspective’. Fiscal Studies 8 (2): 48–57.
-  https://doi.org/10.1111/j.1475-5890.1987.tb00535.x.</p>
-      <p>Duncan, Alan, and Graham Stark. 2000. ‘A Recursive Algorithm to
-  Generate Piecewise Linear Budget Contraints’. 2 May 2000.
-  https://doi.org/10.1920/wp.ifs.2000.0011.</p>
-      <p>Fry, Vanessa, and Graham Stark. 1987. ‘The Take-Up of Supplementary
-  Benefit: Gaps in the “Safety Net”?’ Fiscal Studies 8 (4): 1–14.
-  https://doi.org/10.1111/j.1475-5890.1987.tb00302.x.</p>
-      <p>Fry, Vanessa, and Graham Stark. 1992. The Takeup of Means-Tested
-  Benefits in the UK: The Transition to Income Support and Family
-  Credit. Institute for Fiscal Studies.</p>
-      <p>Fry, Vanessa, and Graham Stark. 1993. ‘The Take-up of Means-Tested
-  Benefits, 1984-90’. 1 January 1993.
-  https://doi.org/10.1920/re.ifs.1993.0041.</p>
-      <p>Giles, Christopher and McCrae, Julian. 1995. TAXBEN: the IFS
-  microsimulation tax and benefit model. Working Paper 1995.
-  https://ifs.org.uk/publications/taxben-ifs-microsimulation-tax-and-benefit-model</p>
-      <p>Johnson, Elliott A., Reed, Howard, Nettle, Daniel, Stark, Graham,
-  Chrisp, Joe, Howard, Neil, Gregory, Grace, Goodman, Cleopatra, Smith,
-  Matt, Coates, Jonathan, Robson, Ian, Parra-Mujica, Fiorella, Pickett,
-  Kate E. and Johnson, Matthew T. 2023. Treating Causes Not Symptoms:
-  Basic Income as a Public Health Measure, London: Compass,
-  <ext-link ext-link-type="uri" xlink:href="https://www.compassonline.org.uk/publications/treating-causes-not-symptoms-basic-income-as-a-public-health-measure">https://www.compassonline.org.uk/publications/treating-causes-not-symptoms-basic-income-as-a-public-health-measure</ext-link></p>
-      <p>Johnson, Elliott A., Reed, Howard, Stark, Graham, Villadsen, Aase,
-  Parra-Mujica, Fiorella, Kypridemos, Chris, Cookson, Richard, Nettle,
-  Daniel, Pickett, Kate E., Johnson, Matthew T. (2023) ‘The Health Case
-  for Basic Income: Case Study’, UK Data Service, London: UKDS,
-  <ext-link ext-link-type="uri" xlink:href="https://ukdataservice.ac.uk/case-study/the-health-case-for-basic-income/">https://ukdataservice.ac.uk/case-study/the-health-case-for-basic-income/</ext-link></p>
-      <p>Johnson, Paul, and Graham Stark. 1989. ‘Ten Years of Mrs Thatcher:
-  The Distributional Consequences’. Fiscal Studies 10 (2): 29–37.</p>
-      <p>Johnson, Paul, and Graham Stark. 1991. ‘The Effects of a Minimum
-  Wage on Family Incomes’. Fiscal Studies 12 (3): 88–93.
-  https://doi.org/10.1111/j.1475-5890.1991.tb00164.x.</p>
-      <p>Johnson, Paul, Steven Webb, and Graham Stark. 1990. ‘TAXBEN2: The
-  New IFS Tax and Benefit Model’. IFS Working Paper W90/5.
-  https://doi.org/10.1111/j.1475-5890.1989.tb00107.x.</p>
-      <p>Reed, H., Johnson, E. A., Stark, G., Nettle, D., Pickett, K. E.
-  &amp; Johnson, M. T. (2023) ‘Estimating the effects of Basic Income
-  schemes on mental and physical health among 18+ adults in the UK: a
-  microsimulation study’, under review PLOS Mental Health.
-  https://doi.org/10.17605/OSF.IO/SKPYB</p>
-      <p>Reed, Howard, Nettle, Daniel, Parra-Mujica, Fiorella, Stark,
-  Graham, Wilkinson, Richard, Johnson, Matthew T., Johnson, Elliott. A.
-  (2024) ‘Examining the relationship between income and both mental and
-  physical health among adults in the UK: Analysis of 12 waves
-  (2009-2022) of Understanding Society’, under review PLOS One. Working
-  paper: https://doi.org/10.17605/OSF.IO/SKPYB</p>
-      <p>Reed, Howard, and Graham Stark. 2009. Assessing the Ability to Pay
-  for the Fees Charged by Charities: Phase 1 &amp; 2. February, 36.
-  Edinburgh: Office of the Scottish Charities Regulator (OSCR).
-  http://www.oscr.org.uk/publications-and-guidance/affordability-reportphase-2/.</p>
-      <p>Reed, Howard, and Graham Stark. 2011a. Modelling the Costs for
-  Individuals and Public Authorities in Wales of Alternative Funding
-  Systems for the Long-Term Care of Adults: Stage 1 Report: Building a
-  Forecasting Model for Long-Term Care in Wales. Welsh Assembly
-  Government.</p>
-      <p>Reed, Howard, and Graham Stark. 2011b. Modelling the Costs for
-  Individuals and Public Authorities in Wales of Alternative Funding
-  Systems for the Long-Term Care of Adults. Welsh Assembly
-  Government.</p>
-      <p>Reed, Howard, and Graham Stark. 2013. Costing the “When I Am Ready”
-  Scheme. Action for Children Wales/Gweithredu dros Blant.</p>
-      <p>Reed, Howard, and Graham Stark. 2018. Tackling Child Poverty
-  Delivery Plan: Forecasting Child Poverty in Scotland. Scottish
-  Government. http://www.gov.scot/Publications/2018/03/2911/0.</p>
-      <p>Reed, Howard, and Graham Stark. 2020. Giving Care Leavers the
-  Chance to Stay: Staying Put Six Years on: Technical Report. Action for
-  Children England.
-  https://doi.org/10.1111/j.1475-5890.1988.tb00319.x.</p>
-      <p>Robinson, Bill, and Graham Stark. 1988. ‘The Tax Treatment of
-  Marriage: What Has the Chancellor Really Achieved?’ Fiscal Studies 9
-  (2): 48–56.</p>
-      <p>Stark, Graham. 1988. ‘Partially Transferable Allowances’. Fiscal
-  Studies 9 (1): 29–40.
-  https://doi.org/10.1111/j.1475-5890.1988.tb00310.x.</p>
-      <p>Stark, Graham. 2021. Staying Put Six Years on: 2021 Update. Action
-  for Children England.</p>
-      <p>Stark, Graham, Johnson, Elliott A., Reed, Howard, Nettle, Daniel,
-  and Johnson, Matthew T. 2024 in press. The Public Policy Preference
-  Calculator (TriplePC): Developing a comprehensive welfare policy
-  microsimulation. International Journal of Microsimulation. Working
-  paper: https://doi.org/10.17605/OSF.IO/SKPYB</p>
-    </sec>
   </body>
   <back>
     <ref-list>
-      <title/>
+      <title>References</title>
       <ref id="ref-stark_assessing_2009">
         <element-citation publication-type="article-journal">
           <person-group person-group-type="author">
@@ -1894,6 +1820,45 @@ work.</funding-statement>
           <uri>https://osf.io/https://osf.io/ngtxs</uri>
         </element-citation>
       </ref>
+      <ref id="ref-reed_universal_2023b">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reed</surname>
+              <given-names>Howard Robert</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Matthew Thomas</given-names>
+            </name>
+            <name>
+              <surname>Lansley</surname>
+              <given-names>Stewart</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>Elliott Aidan</given-names>
+            </name>
+            <name>
+              <surname>Stark</surname>
+              <given-names>Graham</given-names>
+            </name>
+            <name>
+              <surname>Pickett</surname>
+              <given-names>Kate E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Universal Basic Income is affordable and feasible: Evidence from UK economic microsimulation modelling1</article-title>
+          <source>Journal of Poverty and Social Justice</source>
+          <year iso-8601-date="2023">2023</year>
+          <volume>31</volume>
+          <issue>1</issue>
+          <uri>https://bristoluniversitypressdigital.com/view/journals/jpsj/31/1/article-p146.xml</uri>
+          <pub-id pub-id-type="doi">10.1332/175982721X16702368352393</pub-id>
+          <fpage>146 </fpage>
+          <lpage> 162</lpage>
+        </element-citation>
+      </ref>
       <ref id="ref-bansak_using_2023">
         <element-citation publication-type="article-journal">
           <person-group person-group-type="author">
@@ -2014,6 +1979,374 @@ work.</funding-statement>
           </date-in-citation>
           <uri>https://osf.io/preprints/socarxiv/zfnuh/</uri>
           <pub-id pub-id-type="doi">10.31235/osf.io/zfnuh</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-ware_2002">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ware</surname>
+              <given-names>John</given-names>
+            </name>
+            <name>
+              <surname>MA</surname>
+              <given-names>Kosinski</given-names>
+            </name>
+            <name>
+              <surname>Tuner-bowker</surname>
+              <given-names>Dm</given-names>
+            </name>
+            <name>
+              <surname>Gandek</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Version 2 of the SF12 health survey</article-title>
+          <year iso-8601-date="2002-01">2002</year>
+          <month>01</month>
+          <fpage/>
+          <lpage/>
+        </element-citation>
+      </ref>
+      <ref id="ref-bell_fixed_2019">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bell</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name>
+              <surname>Fairbrother</surname>
+              <given-names>Malcolm</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>Kelvyn</given-names>
+            </name>
+          </person-group>
+          <article-title>Fixed and random effects models: Making an informed choice</article-title>
+          <source>Quality &amp; Quantity</source>
+          <year iso-8601-date="2019-03">2019</year>
+          <month>03</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2023-04-30">2023</year>
+            <month>04</month>
+            <day>30</day>
+          </date-in-citation>
+          <volume>53</volume>
+          <issue>2</issue>
+          <issn>0033-5177, 1573-7845</issn>
+          <uri>http://link.springer.com/10.1007/s11135-018-0802-x</uri>
+          <pub-id pub-id-type="doi">10.1007/s11135-018-0802-x</pub-id>
+          <fpage>1051</fpage>
+          <lpage>1074</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-vilagut_2013">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vilagut</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Forero</surname>
+              <given-names>C. G.</given-names>
+            </name>
+            <name>
+              <surname>Pinto-Meza</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Haro</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name>
+              <surname>Graaf</surname>
+              <given-names>R. de</given-names>
+            </name>
+            <name>
+              <surname>Bruffaerts</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kovess</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Girolamo</surname>
+              <given-names>G. de</given-names>
+            </name>
+            <name>
+              <surname>Matschinger</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ferrer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Alonso</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mental component of the short-form 12 health survey (SF-12) as a measure of depressive disorders in the general population: Results with three alternative scoring methods</article-title>
+          <source>Value in Health</source>
+          <year iso-8601-date="2013">2013</year>
+          <volume>16</volume>
+          <issue>4</issue>
+          <pub-id pub-id-type="doi">10.1016/j.jval.2013.01.006</pub-id>
+          <fpage>564</fpage>
+          <lpage> 573</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-dscst15">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drummond</surname>
+              <given-names>M. F.</given-names>
+            </name>
+            <name>
+              <surname>Sculpher</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name>
+              <surname>Claxton</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Stoddart</surname>
+              <given-names>G. L.</given-names>
+            </name>
+            <name>
+              <surname>Torrance</surname>
+              <given-names>G. W.</given-names>
+            </name>
+          </person-group>
+          <source>Methods for the economic evaluation of health care programmes</source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <year iso-8601-date="2015">2015</year>
+          <edition>Fourth</edition>
+        </element-citation>
+      </ref>
+      <ref id="ref-qm22">
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <name>
+              <surname>QualityMetric</surname>
+            </name>
+          </person-group>
+          <article-title>SF-6D® health utility. Quality metric</article-title>
+          <year iso-8601-date="2022">2022</year>
+          <uri>https://www.qualitymetric.com/health-</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-kh22">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>R. M.</given-names>
+            </name>
+            <name>
+              <surname>Hays</surname>
+              <given-names>R. D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Health-related quality of life measurement in public health</article-title>
+          <source>Annual Review of Public Health</source>
+          <year iso-8601-date="2022">2022</year>
+          <volume>43</volume>
+          <issue>1</issue>
+          <pub-id pub-id-type="doi">10.1146/annurev-</pub-id>
+          <fpage>355</fpage>
+          <lpage>373</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-msldg23">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McNamara</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>P. P.</given-names>
+            </name>
+            <name>
+              <surname>Love-Koh</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Doran</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gutacker</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Quality-adjusted life expectancy norms for the english population</article-title>
+          <source>Value in Health</source>
+          <year iso-8601-date="2023">2023</year>
+          <volume>26</volume>
+          <issue>2</issue>
+          <pub-id pub-id-type="doi">10.1016/j.jval.2022.07.005</pub-id>
+          <fpage>163</fpage>
+          <lpage>169</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-brd02">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brazier</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Roberts</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deverill</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The estimation of a preference-based measure of health from the SF-36</article-title>
+          <source>Journal of Health Economics</source>
+          <year iso-8601-date="2002">2002</year>
+          <volume>21</volume>
+          <issue>2</issue>
+          <pub-id pub-id-type="doi">10.1016/S0167-6296(01)00130-8</pub-id>
+          <fpage>271</fpage>
+          <lpage>292</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref-ons-lcf-19">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>National Statistics</surname>
+              <given-names>Office for</given-names>
+            </name>
+          </person-group>
+          <source>Living costs and food survey, 2017-2018</source>
+          <publisher-name>UK Data Service</publisher-name>
+          <year iso-8601-date="2019">2019</year>
+        </element-citation>
+      </ref>
+      <ref id="ref-ons-was-19a">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>National Statistics</surname>
+              <given-names>Office for</given-names>
+            </name>
+          </person-group>
+          <source>Wealth and assets survey</source>
+          <publisher-name>UK Data Service</publisher-name>
+          <year iso-8601-date="2019">2019</year>
+          <pub-id pub-id-type="doi">10.5255/UKDA-Series-2000056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="ref-brice_using_2015">
+        <element-citation publication-type="report">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brice</surname>
+              <given-names>Will</given-names>
+            </name>
+          </person-group>
+          <article-title>Using SAS to model the distributional impact of government policies</article-title>
+          <year iso-8601-date="2015-06">2015</year>
+          <month>06</month>
+          <date-in-citation content-type="access-date">
+            <year iso-8601-date="2017-05-12">2017</year>
+            <month>05</month>
+            <day>12</day>
+          </date-in-citation>
+          <uri>https://www.sas.com/content/dam/SAS/en_gb/doc/other1/events/sasforum/slides/manchester-day1/W.Bryce%20SAS%20Forum%20UK%20-%20HMT%20slides.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-advani_wealth_2020">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Advani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chamberlain</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Summers</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Wealth Tax Commission</article-title>
+          <source>Retrieved August</source>
+          <year iso-8601-date="2020">2020</year>
+          <volume>3</volume>
+          <uri>https://www.ukwealth.tax/</uri>
+          <fpage>2023</fpage>
+          <lpage/>
+        </element-citation>
+      </ref>
+      <ref id="ref-chamberlain_defining_2020">
+        <element-citation>
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chamberlain</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Defining the tax base: Design Issues</article-title>
+          <year iso-8601-date="2020">2020</year>
+          <uri>https://dx.doi.org/10.47445/108</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-atkinson_lectures_2015">
+        <element-citation publication-type="chapter">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>Anthony</given-names>
+            </name>
+            <name>
+              <surname>Stiglitz</surname>
+              <given-names>Joseph</given-names>
+            </name>
+          </person-group>
+          <article-title>Lectures on Public Economics Updated edition, 2nd ed</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Press</surname>
+              <given-names>Princeton University</given-names>
+            </name>
+          </person-group>
+          <year iso-8601-date="2015">2015</year>
+          <uri>https://EconPapers.repec.org/RePEc:pup:pbooks:10493</uri>
+        </element-citation>
+      </ref>
+      <ref id="ref-harberger_incidence_1962">
+        <element-citation publication-type="article-journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harberger</surname>
+              <given-names>Arnold C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Incidence of the Corporation Income Tax</article-title>
+          <source>Journal of Political Economy</source>
+          <year iso-8601-date="1962">1962</year>
+          <volume>70</volume>
+          <issue>3</issue>
+          <pub-id pub-id-type="doi">10.1086/258636</pub-id>
+          <fpage>215</fpage>
+          <lpage>240</lpage>
         </element-citation>
       </ref>
     </ref-list>
